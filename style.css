@@ -1,0 +1,64 @@
+html {
+    --accent-green: #2f5026;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-areas:
+        "aside main";
+}
+
+
+/* --- KARTA --- */
+main {
+    background-color: darkolivegreen;
+    height: 100vh;
+    grid-area: main;
+}
+
+#map {
+    height: 100%;
+}
+
+/* Går det att redigera kart-kontrollerna? */
+
+.overlayCard {
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.flex-overlayCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* --- FLIK --- */
+aside {
+    background-color: #fff;
+    height: 100vh;
+    grid-area: aside;
+    padding: 0.75em;
+}
+
+.cards-holder {
+    margin: 1em 0;
+}
+
+.place-card {
+    background-color: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5em;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
+}
+
+.place-card .place-card-img {
+    background-color: var(--accent-green);
+    width: 6em;
+}

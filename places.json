@@ -1,0 +1,368 @@
+[
+    {
+        "id": 1,
+        "name": "Bokhultet",
+        "type": "Naturreservat",
+        "place": "Bokhultet",
+        "subtype": [
+            "Skog"
+        ],
+        "distance": "",
+        "activities": [
+            "Promenad",
+            "Fågelskådning"
+        ],
+        "symbols": [],
+        "main-img": "img/"
+    },
+    {
+        "id": 2,
+        "name": "Älvsjöskogen",
+        "type": "Naturreservat",
+        "place": "Älvsjöskogen",
+        "subtype": [],
+        "distance": "",
+        "activities": [],
+        "symbols": [],
+        "main-img": "img/"
+    },
+    {
+        "id": 3,
+        "name": "Flaten",
+        "type": "Naturreservat",
+        "place": "Flaten",
+        "subtype": [],
+        "distance": "",
+        "activities": [],
+        "symbols": [],
+        "main-img": "img/"
+    },
+    {
+        "id": 4,
+        "name": "Judarskogen",
+        "type": "Naturreservat",
+        "place": "Judarskogen",
+        "subtype": [],
+        "distance": "",
+        "activities": [],
+        "symbols": [],
+        "main-img": "img/"
+    },
+    {
+        "id": 5,
+        "name": "Teleborgs naturreservat",
+        "type": "Naturreservat",
+        "place": "Teleborgs naturreservat",
+        "subtype": [
+            "Skog"
+        ],
+        "distance": "",
+        "activities": [
+            "Promenad",
+            "Fågelskådning"
+        ],
+        "symbols": [
+            "barnvagn",
+            "parkering",
+            "promenad",
+            "vatten"
+        ],
+        "main-img": "img/"
+    },
+    {
+        "id": 6,
+        "name": "Helgasjön",
+        "type": "Sjö",
+        "place": "Helgasjön",
+        "subtype": [],
+        "distance": "",
+        "activities": [
+            "Promenad",
+            "Bada",
+            "Paddla"
+        ],
+        "symbols": [
+            "badplats",
+            "vatten",
+            "dass"
+        ],
+        "main-img": "img/"
+    },
+    {
+        "id": 7,
+        "name": "Brunnsviken",
+        "type": "Sjö",
+        "place": "Brunnsviken",
+        "subtype": [],
+        "distance": "",
+        "activities": [],
+        "symbols": [],
+        "main-img": "img/"
+    },
+    {
+        "id": 8,
+        "name": "Drevviken",
+        "type": "Sjö",
+        "place": "Drevviken",
+        "subtype": [],
+        "distance": "",
+        "activities": [],
+        "symbols": [],
+        "main-img": "img/"
+    },
+    {
+        "id": 9,
+        "name": "Trummen",
+        "type": "Sjö",
+        "place": "Trummen",
+        "subtype": [
+            "Badplats",
+            "Promenadstråk"
+        ],
+        "distance": "",
+        "activities": [
+            "Bada",
+            "Promenad"
+        ],
+        "symbols": [
+            "vatten",
+            "badplats",
+            "parkering",
+            "promenad",
+            "rullstol"
+        ],
+        "main-img": "img/"
+    },
+    {
+        "id": 10,
+        "name": "Tyrestaskogen",
+        "type": "Skog",
+        "place": "Tyrestaskogen",
+        "subtype": [],
+        "distance": "",
+        "activities": [],
+        "symbols": [],
+        "main-img": "img/"
+    },
+    {
+        "id": 11,
+        "name": "Lillsjöskogen",
+        "type": "Skog",
+        "place": "Lillsjöskogen",
+        "subtype": [],
+        "distance": "",
+        "activities": [],
+        "symbols": [],
+        "main-img": "img/"
+    },
+    {
+        "id": 12,
+        "name": "Drevviken runt",
+        "type": "Promenadstråk",
+        "place": "Drevviken",
+        "subtype": [],
+        "distance": "",
+        "activities": [],
+        "symbols": [],
+        "main-img": "img/"
+    },
+    {
+        "id": 13,
+        "name": "Trummenrundan",
+        "type": "Promenadstråk",
+        "place": "Trummen",
+        "subtype": [],
+        "distance": "",
+        "activities": [],
+        "symbols": [],
+        "main-img": "img/"
+    },
+    {
+        "id": 14,
+        "name": "Årstaviken runt",
+        "type": "Promenadstråk",
+        "place": "",
+        "subtype": [],
+        "distance": "",
+        "activities": [],
+        "symbols": [],
+        "main-img": "img/"
+    },
+    {
+        "id": 15,
+        "name": "Kungsholmen runt",
+        "type": "Promenadstråk",
+        "place": "",
+        "subtype": [],
+        "distance": "",
+        "activities": [],
+        "symbols": [],
+        "main-img": "img/"
+    },
+    {
+        "id": 16,
+        "name": "Skogskällan",
+        "type": "Badplats",
+        "place": "Drevviken",
+        "subtype": [],
+        "distance": "",
+        "activities": [
+            "Bada",
+            "Glass"
+        ],
+        "symbols": [],
+        "main-img": "img/"
+    },
+    {
+        "id": 17,
+        "name": "Örnens lekplats",
+        "type": "Lekplats",
+        "place": "Centrum",
+        "subtype": [],
+        "distance": "",
+        "activities": [],
+        "symbols": [
+            "lekplats",
+            "barnvagn",
+            "parkering"
+        ],
+        "main-img": "img/"
+    },
+    {
+        "id": 18,
+        "name": "Centrumparken",
+        "type": "Park",
+        "place": "Centrum",
+        "subtype": [],
+        "distance": "",
+        "activities": [
+            "Promenad",
+            "Glass"
+        ],
+        "symbols": [
+            "barnvagn",
+            "lekplats",
+            "parkering",
+            "promenad",
+            "rullstol"
+        ],
+        "main-img": "img/"
+    },
+    {
+        "id": 19,
+        "name": "Centrumparkens lekplats",
+        "type": "Lekplats",
+        "place": "Centrum",
+        "subtype": [],
+        "distance": "",
+        "activities": [
+            "Leka"
+        ],
+        "symbols": [
+            "barnvagn",
+            "lekplats",
+            "parkering",
+            "rullstol"
+        ],
+        "main-img": "img/"
+    },
+    {
+        "id": 20,
+        "name": "Linnéträdgården",
+        "type": "Trädgård",
+        "place": "Centrum",
+        "subtype": [],
+        "distance": "",
+        "activities": [
+            "Promenad"
+        ],
+        "symbols": [
+            "barnvagn",
+            "parkering",
+            "promenad",
+            "rullstol"
+        ],
+        "main-img": "img/"
+    },
+    {
+        "id": 21,
+        "name": "Gertruds trädgård",
+        "type": "Trädgård",
+        "place": "Haga",
+        "subtype": [],
+        "distance": "",
+        "activities": [
+            "Promenad"
+        ],
+        "symbols": [
+            "barnvagn",
+            "parkering",
+            "rullstol"
+        ],
+        "main-img": "img/"
+    },
+    {
+        "id": 22,
+        "name": "Teleborgs grillplats",
+        "type": "Grillplats",
+        "place": "Teleborgs naturreservat",
+        "subtype": [],
+        "distance": "",
+        "activities": [
+            "Grilla"
+        ],
+        "symbols": [
+            "grillplats",
+            "naturreservat"
+        ],
+        "main-img": "img/"
+    },
+    {
+        "id": 23,
+        "name": "Linnérundan",
+        "type": "Promenadstråk",
+        "place": "Lillsjöskogen",
+        "subtype": [
+            "Skog"
+        ],
+        "distance": "",
+        "activities": [
+            "Promenad"
+        ],
+        "symbols": [
+            "skog",
+            "promenad"
+        ],
+        "main-img": "img/"
+    },
+    {
+        "id": 24,
+        "name": "Hovs utegym",
+        "type": "Utegym",
+        "place": "Hov",
+        "subtype": [
+            "Park"
+        ],
+        "distance": "",
+        "activities": [
+            "Träna"
+        ],
+        "symbols": [
+            "barnvagn",
+            "lekplats",
+            ""
+        ],
+        "main-img": "img/"
+    },
+    {
+        "id": 25,
+        "name": "Utegymmet vid Haga",
+        "type": "",
+        "place": "",
+        "subtype": [],
+        "distance": "",
+        "activities": [],
+        "symbols": [],
+        "main-img": "img/"
+    }
+]

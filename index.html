@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script type="module" src="js/main.js" defer></script>
+    <title>Gröna Kartan</title>
+</head>
+
+<body>
+    <aside>
+        <!-- En liten flik på sidan -->
+        <div id="search-flex">
+            <input type="text" id="search-act" placeholder="Sök här"> <button>Sök</button>
+        </div>
+        <hr>
+        <h1>Närmast dig</h1>
+        <section class="cards-holder">
+            <div class="place-card">
+                <div class="place-card-img"></div>
+                <div class="place-card-info">
+                    <h2>Namn på plats</h2>
+                    <p>Typ av plats</p>
+                    <p>Distans från tavlan</p>
+                    <div class="place-card-symbols"></div>
+                </div>
+            </div>
+        </section>
+    </aside>
+    <main>
+        <!-- Kartan som underlag -->
+        <div id="map"></div>
+    </main>
+    <!-- Detaljsidan som flik på sidan -->
+</body>
+
+</html>
