@@ -5,26 +5,64 @@
         "type": "Naturreservat",
         "place": "Bokhultet",
         "subtype": [
-            "Skog"
+            "Skog",
+            "Vattendrag"
         ],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [
             "Promenad",
-            "Fågelskådning"
+            "Fågelskådning",
+            "Grilla"
         ],
-        "symbols": [],
-        "main-img": "img/"
+        "symbols": [
+            "barnvagn",
+            "dass",
+            "grillplats",
+            "naturreservat",
+            "promenad",
+            "skog",
+            "vatten"
+        ],
+        "thumbnail": "img/bokhult-thumb",
+        "pop-up-img": "img/bokhult-pop",
+        "detail-img": "img/bokhult-det"
     },
     {
         "id": 2,
         "name": "Älvsjöskogen",
         "type": "Naturreservat",
         "place": "Älvsjöskogen",
-        "subtype": [],
+        "subtype": [
+            "Skog",
+            "Vattendrag"
+        ],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
-        "activities": [],
-        "symbols": [],
-        "main-img": "img/"
+        "activities": [
+            "Promenad",
+            "Grilla",
+            "Paddla",
+            "Bada"
+        ],
+        "symbols": [
+            "badplats",
+            "dass",
+            "grillplats",
+            "naturreservat",
+            "parkering",
+            "skog",
+            "vatten"
+        ],
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 3,
@@ -32,10 +70,16 @@
         "type": "Naturreservat",
         "place": "Flaten",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [],
         "symbols": [],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 4,
@@ -43,10 +87,16 @@
         "type": "Naturreservat",
         "place": "Judarskogen",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [],
         "symbols": [],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 5,
@@ -56,6 +106,10 @@
         "subtype": [
             "Skog"
         ],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [
             "Promenad",
@@ -67,7 +121,9 @@
             "promenad",
             "vatten"
         ],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 6,
@@ -75,6 +131,10 @@
         "type": "Sjö",
         "place": "Helgasjön",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [
             "Promenad",
@@ -86,7 +146,9 @@
             "vatten",
             "dass"
         ],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 7,
@@ -94,10 +156,16 @@
         "type": "Sjö",
         "place": "Brunnsviken",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [],
         "symbols": [],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 8,
@@ -105,10 +173,16 @@
         "type": "Sjö",
         "place": "Drevviken",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [],
         "symbols": [],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 9,
@@ -119,6 +193,10 @@
             "Badplats",
             "Promenadstråk"
         ],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [
             "Bada",
@@ -131,7 +209,9 @@
             "promenad",
             "rullstol"
         ],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 10,
@@ -139,10 +219,16 @@
         "type": "Skog",
         "place": "Tyrestaskogen",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [],
         "symbols": [],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 11,
@@ -150,10 +236,16 @@
         "type": "Skog",
         "place": "Lillsjöskogen",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [],
         "symbols": [],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 12,
@@ -161,10 +253,16 @@
         "type": "Promenadstråk",
         "place": "Drevviken",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [],
         "symbols": [],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 13,
@@ -172,10 +270,16 @@
         "type": "Promenadstråk",
         "place": "Trummen",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [],
         "symbols": [],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 14,
@@ -183,10 +287,16 @@
         "type": "Promenadstråk",
         "place": "",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [],
         "symbols": [],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 15,
@@ -194,10 +304,16 @@
         "type": "Promenadstråk",
         "place": "",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [],
         "symbols": [],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 16,
@@ -205,13 +321,19 @@
         "type": "Badplats",
         "place": "Drevviken",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [
             "Bada",
             "Glass"
         ],
         "symbols": [],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 17,
@@ -219,6 +341,10 @@
         "type": "Lekplats",
         "place": "Centrum",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [],
         "symbols": [
@@ -226,7 +352,9 @@
             "barnvagn",
             "parkering"
         ],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 18,
@@ -234,6 +362,10 @@
         "type": "Park",
         "place": "Centrum",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [
             "Promenad",
@@ -246,7 +378,9 @@
             "promenad",
             "rullstol"
         ],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 19,
@@ -254,6 +388,10 @@
         "type": "Lekplats",
         "place": "Centrum",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [
             "Leka"
@@ -264,7 +402,9 @@
             "parkering",
             "rullstol"
         ],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 20,
@@ -272,6 +412,10 @@
         "type": "Trädgård",
         "place": "Centrum",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [
             "Promenad"
@@ -282,7 +426,9 @@
             "promenad",
             "rullstol"
         ],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 21,
@@ -290,6 +436,10 @@
         "type": "Trädgård",
         "place": "Haga",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [
             "Promenad"
@@ -299,7 +449,9 @@
             "parkering",
             "rullstol"
         ],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 22,
@@ -307,6 +459,10 @@
         "type": "Grillplats",
         "place": "Teleborgs naturreservat",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [
             "Grilla"
@@ -315,7 +471,9 @@
             "grillplats",
             "naturreservat"
         ],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 23,
@@ -325,6 +483,10 @@
         "subtype": [
             "Skog"
         ],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [
             "Promenad"
@@ -333,7 +495,9 @@
             "skog",
             "promenad"
         ],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 24,
@@ -343,6 +507,10 @@
         "subtype": [
             "Park"
         ],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [
             "Träna"
@@ -352,7 +520,9 @@
             "lekplats",
             ""
         ],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     },
     {
         "id": 25,
@@ -360,9 +530,15 @@
         "type": "",
         "place": "",
         "subtype": [],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
         "distance": "",
         "activities": [],
         "symbols": [],
-        "main-img": "img/"
+        "thumbnail": "img/",
+        "pop-up-img": "img/",
+        "detail-img": "img/"
     }
 ]
