@@ -60,43 +60,67 @@
             "skog",
             "vatten"
         ],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "thumbnail": "img/alvsjo-thumb",
+        "pop-up-img": "img/alvsjo-pop",
+        "detail-img": "img/alvsjo-det"
     },
     {
         "id": 3,
         "name": "Flaten",
         "type": "Naturreservat",
         "place": "Flaten",
-        "subtype": [],
+        "subtype": [
+            "Skog",
+            "Vattendrag"
+        ],
         "coordinates": {
             "X": "",
             "Y": ""
         },
         "distance": "",
-        "activities": [],
-        "symbols": [],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "activities": [
+            "Promenad",
+            "Fågelskådning",
+            "Grilla"
+        ],
+        "symbols": [
+            "grillplats",
+            "naturreservat",
+            "skog",
+            "vatten"
+        ],
+        "thumbnail": "img/flaten-thumb",
+        "pop-up-img": "img/flaten-pop",
+        "detail-img": "img/falten-det"
     },
     {
         "id": 4,
         "name": "Judarskogen",
         "type": "Naturreservat",
         "place": "Judarskogen",
-        "subtype": [],
+        "subtype": [
+            "Skog"
+        ],
         "coordinates": {
             "X": "",
             "Y": ""
         },
         "distance": "",
-        "activities": [],
-        "symbols": [],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "activities": [
+            "Fågelskådning",
+            "Promenad"
+        ],
+        "symbols": [
+            "barnvagn",
+            "naturreservat",
+            "parkering",
+            "promenad",
+            "rullstol",
+            "skog"
+        ],
+        "thumbnail": "img/juda-thumb",
+        "pop-up-img": "img/juda-pop",
+        "detail-img": "img/juda-det"
     },
     {
         "id": 5,
@@ -104,7 +128,9 @@
         "type": "Naturreservat",
         "place": "Teleborgs naturreservat",
         "subtype": [
-            "Skog"
+            "Skog",
+            "Vattendrag",
+            "Promenadstråk"
         ],
         "coordinates": {
             "X": "",
@@ -119,11 +145,12 @@
             "barnvagn",
             "parkering",
             "promenad",
-            "vatten"
+            "vatten",
+            "skog"
         ],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "thumbnail": "img/teleborg-thumb",
+        "pop-up-img": "img/teleborg-pop",
+        "detail-img": "img/teleborg-det"
     },
     {
         "id": 6,
@@ -144,11 +171,12 @@
         "symbols": [
             "badplats",
             "vatten",
-            "dass"
+            "dass",
+            "parkering"
         ],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "thumbnail": "img/helga-thumb",
+        "pop-up-img": "img/helga-pop",
+        "detail-img": "img/helga-det"
     },
     {
         "id": 7,
@@ -161,28 +189,56 @@
             "Y": ""
         },
         "distance": "",
-        "activities": [],
-        "symbols": [],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "activities": [
+            "Bada",
+            "Grilla",
+            "Promenad",
+            "Träna"
+        ],
+        "symbols": [
+            "badplats",
+            "barnvagn",
+            "grillplats",
+            "parkering",
+            "rullstol",
+            "vatten"
+        ],
+        "thumbnail": "img/brunnsv-thumb",
+        "pop-up-img": "img/brunnsv-pop",
+        "detail-img": "img/brunnsv-det"
     },
     {
         "id": 8,
         "name": "Drevviken",
         "type": "Sjö",
         "place": "Drevviken",
-        "subtype": [],
+        "subtype": [
+            "Badplats",
+            "Promenadstråk"
+        ],
         "coordinates": {
             "X": "",
             "Y": ""
         },
         "distance": "",
-        "activities": [],
-        "symbols": [],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "activities": [
+            "Bada",
+            "Fågelskådning",
+            "Leka",
+            "Promenad"
+        ],
+        "symbols": [
+            "badplats",
+            "barnvagn",
+            "lekplats",
+            "parkering",
+            "promenad",
+            "rullstol",
+            "vatten"
+        ],
+        "thumbnail": "img/drev-thumb",
+        "pop-up-img": "img/drev-pop",
+        "detail-img": "img/drev-det"
     },
     {
         "id": 9,
@@ -200,23 +256,174 @@
         "distance": "",
         "activities": [
             "Bada",
-            "Promenad"
+            "Promenad",
+            "Träna"
         ],
         "symbols": [
             "vatten",
             "badplats",
             "parkering",
             "promenad",
-            "rullstol"
+            "rullstol",
+            "utegym"
         ],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "thumbnail": "img/trummen-thumb",
+        "pop-up-img": "img/trummen-pop",
+        "detail-img": "img/trummen-det"
     },
     {
         "id": 10,
         "name": "Tyrestaskogen",
         "type": "Skog",
+        "place": "Tyrestaskogen",
+        "subtype": [
+            "Promenadstråk"
+        ],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
+        "distance": "",
+        "activities": [
+            "Fågelskådning",
+            "Grilla",
+            "Promenad"
+        ],
+        "symbols": [
+            "grillplats",
+            "promenad",
+            "skog"
+        ],
+        "thumbnail": "img/tyresta-thumb",
+        "pop-up-img": "img/tyresta-pop",
+        "detail-img": "img/tyresta-det"
+    },
+    {
+        "id": 11,
+        "name": "Lillsjöskogen",
+        "type": "Skog",
+        "place": "Lillsjöskogen",
+        "subtype": [
+            "Vattendrag"
+        ],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
+        "distance": "",
+        "activities": [
+            "Bada",
+            "Promenad"
+        ],
+        "symbols": [
+            "badplats",
+            "barnvagn",
+            "parkering",
+            "promenad",
+            "skog",
+            "vatten"
+        ],
+        "thumbnail": "img/lill-thumb",
+        "pop-up-img": "img/lill-pop",
+        "detail-img": "img/lill-det"
+    },
+    {
+        "id": 12,
+        "name": "Drevviken runt",
+        "type": "Promenadstråk",
+        "place": "Drevviken",
+        "subtype": [
+            "Vattendrag",
+            "Badplats"
+        ],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
+        "distance": "",
+        "activities": [
+            "Bada",
+            "Promenad",
+            "Leka"
+        ],
+        "symbols": [
+            "badplats",
+            "barnvagn",
+            "lekplats",
+            "parkering",
+            "promenad",
+            "rullstol",
+            "vatten"
+        ],
+        "thumbnail": "img/drevRu-thumb",
+        "pop-up-img": "img/drevRu-pop",
+        "detail-img": "img/drevRu-det"
+    },
+    {
+        "id": 13,
+        "name": "Trummenrundan",
+        "type": "Promenadstråk",
+        "place": "Trummen",
+        "subtype": [
+            "Skog",
+            "Vattendrag"
+        ],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
+        "distance": "",
+        "activities": [
+            "Bada",
+            "Promenad",
+            "Träna"
+        ],
+        "symbols": [
+            "vatten",
+            "badplats",
+            "parkering",
+            "promenad",
+            "rullstol",
+            "utegym"
+        ],
+        "thumbnail": "img/trummRu-thumb",
+        "pop-up-img": "img/trummRu-pop",
+        "detail-img": "img/trummRu-det"
+    },
+    {
+        "id": 14,
+        "name": "Lillsjöskogen runt",
+        "type": "Promenadstråk",
+        "place": "Lillsjöskogen",
+        "subtype": [
+            "Skog",
+            "Vattendrag"
+        ],
+        "coordinates": {
+            "X": "",
+            "Y": ""
+        },
+        "distance": "",
+        "activities": [
+            "Promenad",
+            "Bada"
+        ],
+        "symbols": [
+            "badplats",
+            "barnvagn",
+            "parkering",
+            "promenad",
+            "skog",
+            "vatten"
+        ],
+        "thumbnail": "img/lillRu-thumb",
+        "pop-up-img": "img/lillRu-pop",
+        "detail-img": "img/lillRu-det"
+    },
+    {
+        "id": 15,
+        "name": "Tyrestapromenaden",
+        "type": "Promenadstråk",
         "place": "Tyrestaskogen",
         "subtype": [],
         "coordinates": {
@@ -224,103 +431,28 @@
             "Y": ""
         },
         "distance": "",
-        "activities": [],
-        "symbols": [],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
-    },
-    {
-        "id": 11,
-        "name": "Lillsjöskogen",
-        "type": "Skog",
-        "place": "Lillsjöskogen",
-        "subtype": [],
-        "coordinates": {
-            "X": "",
-            "Y": ""
-        },
-        "distance": "",
-        "activities": [],
-        "symbols": [],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
-    },
-    {
-        "id": 12,
-        "name": "Drevviken runt",
-        "type": "Promenadstråk",
-        "place": "Drevviken",
-        "subtype": [],
-        "coordinates": {
-            "X": "",
-            "Y": ""
-        },
-        "distance": "",
-        "activities": [],
-        "symbols": [],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
-    },
-    {
-        "id": 13,
-        "name": "Trummenrundan",
-        "type": "Promenadstråk",
-        "place": "Trummen",
-        "subtype": [],
-        "coordinates": {
-            "X": "",
-            "Y": ""
-        },
-        "distance": "",
-        "activities": [],
-        "symbols": [],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
-    },
-    {
-        "id": 14,
-        "name": "Årstaviken runt",
-        "type": "Promenadstråk",
-        "place": "",
-        "subtype": [],
-        "coordinates": {
-            "X": "",
-            "Y": ""
-        },
-        "distance": "",
-        "activities": [],
-        "symbols": [],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
-    },
-    {
-        "id": 15,
-        "name": "Kungsholmen runt",
-        "type": "Promenadstråk",
-        "place": "",
-        "subtype": [],
-        "coordinates": {
-            "X": "",
-            "Y": ""
-        },
-        "distance": "",
-        "activities": [],
-        "symbols": [],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "activities": [
+            "Fågelskådning",
+            "Grilla",
+            "Promenad"
+        ],
+        "symbols": [
+            "grillplats",
+            "promenad",
+            "skog"
+        ],
+        "thumbnail": "img/tyrestaRu-thumb",
+        "pop-up-img": "img/tyrestaRu-pop",
+        "detail-img": "img/tyrestaRu-det"
     },
     {
         "id": 16,
         "name": "Skogskällan",
         "type": "Badplats",
         "place": "Drevviken",
-        "subtype": [],
+        "subtype": [
+            "Vattendrag"
+        ],
         "coordinates": {
             "X": "",
             "Y": ""
@@ -330,38 +462,53 @@
             "Bada",
             "Glass"
         ],
-        "symbols": [],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "symbols": [
+            "badplats",
+            "barnvagn",
+            "lekplats",
+            "parkering",
+            "promenad",
+            "rullstol",
+            "vatten"
+        ],
+        "thumbnail": "img/skogskallan-thumb",
+        "pop-up-img": "img/skogskallan-pop",
+        "detail-img": "img/skogskallan-det"
     },
     {
         "id": 17,
         "name": "Örnens lekplats",
         "type": "Lekplats",
         "place": "Centrum",
-        "subtype": [],
+        "subtype": [
+            "Park"
+        ],
         "coordinates": {
             "X": "",
             "Y": ""
         },
         "distance": "",
-        "activities": [],
+        "activities": [
+            "Glass",
+            "Leka"
+        ],
         "symbols": [
             "lekplats",
             "barnvagn",
             "parkering"
         ],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "thumbnail": "img/ornen-thumb",
+        "pop-up-img": "img/ornen-pop",
+        "detail-img": "img/ornen-det"
     },
     {
         "id": 18,
         "name": "Centrumparken",
         "type": "Park",
         "place": "Centrum",
-        "subtype": [],
+        "subtype": [
+            "Lekplats"
+        ],
         "coordinates": {
             "X": "",
             "Y": ""
@@ -369,7 +516,8 @@
         "distance": "",
         "activities": [
             "Promenad",
-            "Glass"
+            "Glass",
+            "Leka"
         ],
         "symbols": [
             "barnvagn",
@@ -378,23 +526,27 @@
             "promenad",
             "rullstol"
         ],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "thumbnail": "img/centrum-thumb",
+        "pop-up-img": "img/centrum-pop",
+        "detail-img": "img/centrum-det"
     },
     {
         "id": 19,
         "name": "Centrumparkens lekplats",
         "type": "Lekplats",
         "place": "Centrum",
-        "subtype": [],
+        "subtype": [
+            "Park"
+        ],
         "coordinates": {
             "X": "",
             "Y": ""
         },
         "distance": "",
         "activities": [
-            "Leka"
+            "Leka",
+            "Promenad",
+            "Glass"
         ],
         "symbols": [
             "barnvagn",
@@ -402,9 +554,9 @@
             "parkering",
             "rullstol"
         ],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "thumbnail": "img/centrumLek-thumb",
+        "pop-up-img": "img/centrumLek-pop",
+        "detail-img": "img/centrumLek-det"
     },
     {
         "id": 20,
@@ -424,11 +576,12 @@
             "barnvagn",
             "parkering",
             "promenad",
-            "rullstol"
+            "rullstol",
+            "toalett"
         ],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "thumbnail": "img/linne-thumb",
+        "pop-up-img": "img/linne-pop",
+        "detail-img": "img/linne-det"
     },
     {
         "id": 21,
@@ -447,11 +600,13 @@
         "symbols": [
             "barnvagn",
             "parkering",
-            "rullstol"
+            "rullstol",
+            "trädgård",
+            "toalett"
         ],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "thumbnail": "img/gertrud-thumb",
+        "pop-up-img": "img/gertrud-pop",
+        "detail-img": "img/gertrud-det"
     },
     {
         "id": 22,
@@ -469,11 +624,12 @@
         ],
         "symbols": [
             "grillplats",
-            "naturreservat"
+            "naturreservat",
+            "skog"
         ],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "thumbnail": "img/teleborgGrill-thumb",
+        "pop-up-img": "img/teleborgGrill-pop",
+        "detail-img": "img/teleborgGrill-det"
     },
     {
         "id": 23,
@@ -489,15 +645,20 @@
         },
         "distance": "",
         "activities": [
-            "Promenad"
+            "Promenad",
+            "Bada"
         ],
         "symbols": [
             "skog",
-            "promenad"
+            "promenad",
+            "badplats",
+            "barnvagn",
+            "parkering",
+            "vatten"
         ],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "thumbnail": "img/linneRu-thumb",
+        "pop-up-img": "img/linneRu-pop",
+        "detail-img": "img/linneRu-det"
     },
     {
         "id": 24,
@@ -518,27 +679,35 @@
         "symbols": [
             "barnvagn",
             "lekplats",
-            ""
+            "rullstol",
+            "utegym"
         ],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "thumbnail": "img/hov-thumb",
+        "pop-up-img": "img/hov-pop",
+        "detail-img": "img/hov-det"
     },
     {
         "id": 25,
         "name": "Utegymmet vid Haga",
-        "type": "",
-        "place": "",
+        "type": "Utegym",
+        "place": "Haga",
         "subtype": [],
         "coordinates": {
             "X": "",
             "Y": ""
         },
         "distance": "",
-        "activities": [],
-        "symbols": [],
-        "thumbnail": "img/",
-        "pop-up-img": "img/",
-        "detail-img": "img/"
+        "activities": [
+            "Träna"
+        ],
+        "symbols": [
+            "barnvagn",
+            "parkering",
+            "rullstol",
+            "utegym"
+        ],
+        "thumbnail": "img/haga-thumb",
+        "pop-up-img": "img/haga-pop",
+        "detail-img": "img/haga-det"
     }
 ]
