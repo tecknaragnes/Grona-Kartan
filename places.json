@@ -30,8 +30,8 @@
         "thumbnail": "img/places/bokhult-thumb",
         "pop-up-img": "img/places/bokhult-pop",
         "detail-img": "img/places/bokhult-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/beetle",
+        "flora": "img/creatures/rhododendron"
     },
     {
         "id": 2,
@@ -65,8 +65,8 @@
         "thumbnail": "img/places/alvsjo-thumb",
         "pop-up-img": "img/places/alvsjo-pop",
         "detail-img": "img/places/alvsjo-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/swan",
+        "flora": "img/creatures/moss"
     },
     {
         "id": 3,
@@ -96,8 +96,8 @@
         "thumbnail": "img/places/flaten-thumb",
         "pop-up-img": "img/places/flaten-pop",
         "detail-img": "img/places/falten-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/woodpecker",
+        "flora": "img/creatures/rhododendron"
     },
     {
         "id": 4,
@@ -127,8 +127,8 @@
         "thumbnail": "img/places/juda-thumb",
         "pop-up-img": "img/places/juda-pop",
         "detail-img": "img/places/juda-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/butterfly",
+        "flora": "img/creatures/mushroom"
     },
     {
         "id": 5,
@@ -159,8 +159,8 @@
         "thumbnail": "img/places/teleborg-thumb",
         "pop-up-img": "img/places/teleborg-pop",
         "detail-img": "img/places/teleborg-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/woodpecker",
+        "flora": "img/creatures/rhododendron"
     },
     {
         "id": 6,
@@ -187,8 +187,8 @@
         "thumbnail": "img/places/helga-thumb",
         "pop-up-img": "img/places/helga-pop",
         "detail-img": "img/places/helga-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/greattit",
+        "flora": "img/creatures/lichen"
     },
     {
         "id": 7,
@@ -218,8 +218,8 @@
         "thumbnail": "img/places/brunnsv-thumb",
         "pop-up-img": "img/places/brunnsv-pop",
         "detail-img": "img/places/brunnsv-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/beetle",
+        "flora": "img/creatures/mushroom"
     },
     {
         "id": 8,
@@ -253,8 +253,8 @@
         "thumbnail": "img/places/drev-thumb",
         "pop-up-img": "img/places/drev-pop",
         "detail-img": "img/places/drev-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/butterfly",
+        "flora": "img/creatures/moss"
     },
     {
         "id": 9,
@@ -286,8 +286,8 @@
         "thumbnail": "img/places/trummen-thumb",
         "pop-up-img": "img/places/trummen-pop",
         "detail-img": "img/places/trummen-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/woodpecker",
+        "flora": "img/creatures/rhododendron"
     },
     {
         "id": 10,
@@ -315,8 +315,8 @@
         "thumbnail": "img/places/tyresta-thumb",
         "pop-up-img": "img/places/tyresta-pop",
         "detail-img": "img/places/tyresta-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/greattit",
+        "flora": "img/creatures/lichen"
     },
     {
         "id": 11,
@@ -346,8 +346,8 @@
         "thumbnail": "img/places/lill-thumb",
         "pop-up-img": "img/places/lill-pop",
         "detail-img": "img/places/lill-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/mallard",
+        "flora": "img/creatures/lichen"
     },
     {
         "id": 12,
@@ -380,8 +380,8 @@
         "thumbnail": "img/places/drevRu-thumb",
         "pop-up-img": "img/places/drevRu-pop",
         "detail-img": "img/places/drevRu-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/perch",
+        "flora": "img/creatures/rhododendron"
     },
     {
         "id": 13,
@@ -413,8 +413,8 @@
         "thumbnail": "img/places/trummRu-thumb",
         "pop-up-img": "img/places/trummRu-pop",
         "detail-img": "img/places/trummRu-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/perch",
+        "flora": "img/creatures/moss"
     },
     {
         "id": 14,
@@ -445,8 +445,8 @@
         "thumbnail": "img/places/lillRu-thumb",
         "pop-up-img": "img/places/lillRu-pop",
         "detail-img": "img/places/lillRu-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/woodpecker",
+        "flora": "img/creatures/rhododendron"
     },
     {
         "id": 15,
@@ -472,8 +472,8 @@
         "thumbnail": "img/places/tyrestaRu-thumb",
         "pop-up-img": "img/places/tyrestaRu-pop",
         "detail-img": "img/places/tyrestaRu-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/pike",
+        "flora": "img/creatures/crocus"
     },
     {
         "id": 16,
@@ -504,8 +504,8 @@
         "thumbnail": "img/places/skogskallan-thumb",
         "pop-up-img": "img/places/skogskallan-pop",
         "detail-img": "img/places/skogskallan-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/bluetit",
+        "flora": "img/creatures/mushroom"
     },
     {
         "id": 17,
@@ -532,8 +532,8 @@
         "thumbnail": "img/places/ornen-thumb",
         "pop-up-img": "img/places/ornen-pop",
         "detail-img": "img/places/ornen-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/greattit",
+        "flora": "img/creatures/moss"
     },
     {
         "id": 18,
@@ -563,8 +563,8 @@
         "thumbnail": "img/places/centrum-thumb",
         "pop-up-img": "img/places/centrum-pop",
         "detail-img": "img/places/centrum-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/ladybug",
+        "flora": "img/creatures/mushroom"
     },
     {
         "id": 19,
@@ -593,8 +593,8 @@
         "thumbnail": "img/places/centrumLek-thumb",
         "pop-up-img": "img/places/centrumLek-pop",
         "detail-img": "img/places/centrumLek-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/pike",
+        "flora": "img/creatures/mushroom"
     },
     {
         "id": 20,
@@ -620,8 +620,8 @@
         "thumbnail": "img/places/linne-thumb",
         "pop-up-img": "img/places/linne-pop",
         "detail-img": "img/places/linne-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/pike",
+        "flora": "img/creatures/mushroom"
     },
     {
         "id": 21,
@@ -647,8 +647,8 @@
         "thumbnail": "img/places/gertrud-thumb",
         "pop-up-img": "img/places/gertrud-pop",
         "detail-img": "img/places/gertrud-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/mallard",
+        "flora": "img/creatures/rhododendron"
     },
     {
         "id": 22,
@@ -672,8 +672,8 @@
         "thumbnail": "img/places/teleborgGrill-thumb",
         "pop-up-img": "img/places/teleborgGrill-pop",
         "detail-img": "img/places/teleborgGrill-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/mallard",
+        "flora": "img/creatures/mushroom"
     },
     {
         "id": 23,
@@ -703,8 +703,8 @@
         "thumbnail": "img/places/linneRu-thumb",
         "pop-up-img": "img/places/linneRu-pop",
         "detail-img": "img/places/linneRu-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/butterfly",
+        "flora": "img/creatures/mushroom"
     },
     {
         "id": 24,
@@ -731,8 +731,8 @@
         "thumbnail": "img/places/hov-thumb",
         "pop-up-img": "img/places/hov-pop",
         "detail-img": "img/places/hov-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/swan",
+        "flora": "img/creatures/moss"
     },
     {
         "id": 25,
@@ -757,7 +757,7 @@
         "thumbnail": "img/places/haga-thumb",
         "pop-up-img": "img/places/haga-pop",
         "detail-img": "img/places/haga-det",
-        "fauna": "img/creatures/",
-        "flora": "img/creatures/"
+        "fauna": "img/creatures/perch",
+        "flora": "img/creatures/moss"
     }
 ]
