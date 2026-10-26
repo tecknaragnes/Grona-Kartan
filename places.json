@@ -27,9 +27,11 @@
             "skog",
             "vatten"
         ],
-        "thumbnail": "img/bokhult-thumb",
-        "pop-up-img": "img/bokhult-pop",
-        "detail-img": "img/bokhult-det"
+        "thumbnail": "img/places/bokhult-thumb",
+        "pop-up-img": "img/places/bokhult-pop",
+        "detail-img": "img/places/bokhult-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 2,
@@ -60,9 +62,11 @@
             "skog",
             "vatten"
         ],
-        "thumbnail": "img/alvsjo-thumb",
-        "pop-up-img": "img/alvsjo-pop",
-        "detail-img": "img/alvsjo-det"
+        "thumbnail": "img/places/alvsjo-thumb",
+        "pop-up-img": "img/places/alvsjo-pop",
+        "detail-img": "img/places/alvsjo-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 3,
@@ -89,9 +93,11 @@
             "skog",
             "vatten"
         ],
-        "thumbnail": "img/flaten-thumb",
-        "pop-up-img": "img/flaten-pop",
-        "detail-img": "img/falten-det"
+        "thumbnail": "img/places/flaten-thumb",
+        "pop-up-img": "img/places/flaten-pop",
+        "detail-img": "img/places/falten-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 4,
@@ -118,9 +124,11 @@
             "rullstol",
             "skog"
         ],
-        "thumbnail": "img/juda-thumb",
-        "pop-up-img": "img/juda-pop",
-        "detail-img": "img/juda-det"
+        "thumbnail": "img/places/juda-thumb",
+        "pop-up-img": "img/places/juda-pop",
+        "detail-img": "img/places/juda-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 5,
@@ -148,9 +156,11 @@
             "vatten",
             "skog"
         ],
-        "thumbnail": "img/teleborg-thumb",
-        "pop-up-img": "img/teleborg-pop",
-        "detail-img": "img/teleborg-det"
+        "thumbnail": "img/places/teleborg-thumb",
+        "pop-up-img": "img/places/teleborg-pop",
+        "detail-img": "img/places/teleborg-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 6,
@@ -174,9 +184,11 @@
             "dass",
             "parkering"
         ],
-        "thumbnail": "img/helga-thumb",
-        "pop-up-img": "img/helga-pop",
-        "detail-img": "img/helga-det"
+        "thumbnail": "img/places/helga-thumb",
+        "pop-up-img": "img/places/helga-pop",
+        "detail-img": "img/places/helga-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 7,
@@ -203,9 +215,11 @@
             "rullstol",
             "vatten"
         ],
-        "thumbnail": "img/brunnsv-thumb",
-        "pop-up-img": "img/brunnsv-pop",
-        "detail-img": "img/brunnsv-det"
+        "thumbnail": "img/places/brunnsv-thumb",
+        "pop-up-img": "img/places/brunnsv-pop",
+        "detail-img": "img/places/brunnsv-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 8,
@@ -236,9 +250,11 @@
             "rullstol",
             "vatten"
         ],
-        "thumbnail": "img/drev-thumb",
-        "pop-up-img": "img/drev-pop",
-        "detail-img": "img/drev-det"
+        "thumbnail": "img/places/drev-thumb",
+        "pop-up-img": "img/places/drev-pop",
+        "detail-img": "img/places/drev-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 9,
@@ -267,9 +283,11 @@
             "rullstol",
             "utegym"
         ],
-        "thumbnail": "img/trummen-thumb",
-        "pop-up-img": "img/trummen-pop",
-        "detail-img": "img/trummen-det"
+        "thumbnail": "img/places/trummen-thumb",
+        "pop-up-img": "img/places/trummen-pop",
+        "detail-img": "img/places/trummen-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 10,
@@ -294,9 +312,11 @@
             "promenad",
             "skog"
         ],
-        "thumbnail": "img/tyresta-thumb",
-        "pop-up-img": "img/tyresta-pop",
-        "detail-img": "img/tyresta-det"
+        "thumbnail": "img/places/tyresta-thumb",
+        "pop-up-img": "img/places/tyresta-pop",
+        "detail-img": "img/places/tyresta-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 11,
@@ -323,9 +343,11 @@
             "skog",
             "vatten"
         ],
-        "thumbnail": "img/lill-thumb",
-        "pop-up-img": "img/lill-pop",
-        "detail-img": "img/lill-det"
+        "thumbnail": "img/places/lill-thumb",
+        "pop-up-img": "img/places/lill-pop",
+        "detail-img": "img/places/lill-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 12,
@@ -355,9 +377,11 @@
             "rullstol",
             "vatten"
         ],
-        "thumbnail": "img/drevRu-thumb",
-        "pop-up-img": "img/drevRu-pop",
-        "detail-img": "img/drevRu-det"
+        "thumbnail": "img/places/drevRu-thumb",
+        "pop-up-img": "img/places/drevRu-pop",
+        "detail-img": "img/places/drevRu-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 13,
@@ -386,9 +410,11 @@
             "rullstol",
             "utegym"
         ],
-        "thumbnail": "img/trummRu-thumb",
-        "pop-up-img": "img/trummRu-pop",
-        "detail-img": "img/trummRu-det"
+        "thumbnail": "img/places/trummRu-thumb",
+        "pop-up-img": "img/places/trummRu-pop",
+        "detail-img": "img/places/trummRu-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 14,
@@ -416,9 +442,11 @@
             "skog",
             "vatten"
         ],
-        "thumbnail": "img/lillRu-thumb",
-        "pop-up-img": "img/lillRu-pop",
-        "detail-img": "img/lillRu-det"
+        "thumbnail": "img/places/lillRu-thumb",
+        "pop-up-img": "img/places/lillRu-pop",
+        "detail-img": "img/places/lillRu-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 15,
@@ -441,9 +469,11 @@
             "promenad",
             "skog"
         ],
-        "thumbnail": "img/tyrestaRu-thumb",
-        "pop-up-img": "img/tyrestaRu-pop",
-        "detail-img": "img/tyrestaRu-det"
+        "thumbnail": "img/places/tyrestaRu-thumb",
+        "pop-up-img": "img/places/tyrestaRu-pop",
+        "detail-img": "img/places/tyrestaRu-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 16,
@@ -471,9 +501,11 @@
             "rullstol",
             "vatten"
         ],
-        "thumbnail": "img/skogskallan-thumb",
-        "pop-up-img": "img/skogskallan-pop",
-        "detail-img": "img/skogskallan-det"
+        "thumbnail": "img/places/skogskallan-thumb",
+        "pop-up-img": "img/places/skogskallan-pop",
+        "detail-img": "img/places/skogskallan-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 17,
@@ -497,9 +529,11 @@
             "barnvagn",
             "parkering"
         ],
-        "thumbnail": "img/ornen-thumb",
-        "pop-up-img": "img/ornen-pop",
-        "detail-img": "img/ornen-det"
+        "thumbnail": "img/places/ornen-thumb",
+        "pop-up-img": "img/places/ornen-pop",
+        "detail-img": "img/places/ornen-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 18,
@@ -526,9 +560,11 @@
             "promenad",
             "rullstol"
         ],
-        "thumbnail": "img/centrum-thumb",
-        "pop-up-img": "img/centrum-pop",
-        "detail-img": "img/centrum-det"
+        "thumbnail": "img/places/centrum-thumb",
+        "pop-up-img": "img/places/centrum-pop",
+        "detail-img": "img/places/centrum-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 19,
@@ -554,9 +590,11 @@
             "parkering",
             "rullstol"
         ],
-        "thumbnail": "img/centrumLek-thumb",
-        "pop-up-img": "img/centrumLek-pop",
-        "detail-img": "img/centrumLek-det"
+        "thumbnail": "img/places/centrumLek-thumb",
+        "pop-up-img": "img/places/centrumLek-pop",
+        "detail-img": "img/places/centrumLek-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 20,
@@ -579,9 +617,11 @@
             "rullstol",
             "toalett"
         ],
-        "thumbnail": "img/linne-thumb",
-        "pop-up-img": "img/linne-pop",
-        "detail-img": "img/linne-det"
+        "thumbnail": "img/places/linne-thumb",
+        "pop-up-img": "img/places/linne-pop",
+        "detail-img": "img/places/linne-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 21,
@@ -604,9 +644,11 @@
             "trädgård",
             "toalett"
         ],
-        "thumbnail": "img/gertrud-thumb",
-        "pop-up-img": "img/gertrud-pop",
-        "detail-img": "img/gertrud-det"
+        "thumbnail": "img/places/gertrud-thumb",
+        "pop-up-img": "img/places/gertrud-pop",
+        "detail-img": "img/places/gertrud-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 22,
@@ -627,9 +669,11 @@
             "naturreservat",
             "skog"
         ],
-        "thumbnail": "img/teleborgGrill-thumb",
-        "pop-up-img": "img/teleborgGrill-pop",
-        "detail-img": "img/teleborgGrill-det"
+        "thumbnail": "img/places/teleborgGrill-thumb",
+        "pop-up-img": "img/places/teleborgGrill-pop",
+        "detail-img": "img/places/teleborgGrill-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 23,
@@ -656,9 +700,11 @@
             "parkering",
             "vatten"
         ],
-        "thumbnail": "img/linneRu-thumb",
-        "pop-up-img": "img/linneRu-pop",
-        "detail-img": "img/linneRu-det"
+        "thumbnail": "img/places/linneRu-thumb",
+        "pop-up-img": "img/places/linneRu-pop",
+        "detail-img": "img/places/linneRu-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 24,
@@ -682,9 +728,11 @@
             "rullstol",
             "utegym"
         ],
-        "thumbnail": "img/hov-thumb",
-        "pop-up-img": "img/hov-pop",
-        "detail-img": "img/hov-det"
+        "thumbnail": "img/places/hov-thumb",
+        "pop-up-img": "img/places/hov-pop",
+        "detail-img": "img/places/hov-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     },
     {
         "id": 25,
@@ -706,8 +754,10 @@
             "rullstol",
             "utegym"
         ],
-        "thumbnail": "img/haga-thumb",
-        "pop-up-img": "img/haga-pop",
-        "detail-img": "img/haga-det"
+        "thumbnail": "img/places/haga-thumb",
+        "pop-up-img": "img/places/haga-pop",
+        "detail-img": "img/places/haga-det",
+        "fauna": "img/creatures/",
+        "flora": "img/creatures/"
     }
 ]
