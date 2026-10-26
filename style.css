@@ -5,9 +5,15 @@ html {
 body {
     margin: 0;
     display: grid;
-    grid-template-columns: 2fr 8fr;
+    grid-template-columns: 3fr 8fr;
     grid-template-areas:
         "aside main";
+}
+
+h1,
+h2,
+h3 {
+    color: var(--accent-green);
 }
 
 
@@ -45,6 +51,39 @@ aside {
     padding: 0.75em;
 }
 
+aside hr {
+    border: 0.1em solid var(--accent-green);
+}
+
+#search-flex {
+    display: flex;
+}
+
+input#search-act {
+    height: 3em;
+    border-radius: 0.75em 0 0 0.75em;
+    border: 0.2em solid var(--accent-green);
+    padding: 0 0.5em;
+}
+
+#search-btn {
+    border-radius: 0 0.75em 0.75em 0;
+    border: 0.2em solid var(--accent-green);
+    color: #fff;
+    background-color: var(--accent-green);
+    padding: 0.75em;
+}
+
+#filter-symbols-flex {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5em;
+}
+
+#filter-symbols-flex img {
+    height: 4em;
+}
+
 .cards-holder {
     margin: 1em 0;
 }
@@ -56,9 +95,11 @@ aside {
     gap: 0.5em;
     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 0.5em;
+    margin: 0 0 0.75em 0;
 }
 
 .place-card .place-card-img {
     background-color: var(--accent-green);
     width: 6em;
+    border-radius: 0.5em 0 0 0.5em;
 }
