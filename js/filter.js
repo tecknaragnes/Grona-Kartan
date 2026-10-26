@@ -1,75 +1,95 @@
+let places;
+const response = await fetch("../places.json");
+places = await response.json(); //hämtas med fetch 
+
+let activeSymbols = [];
+
+const filterResults = () => {
+    let filtered;
+
+    // gör en array med alla symboler, gå sedan igenom den en och en och 
+    // kolla vilka som är aktiva (söka klass)
+    // filtrera utifrån "symbols" i objekten
+}
+
 export const listeners = () => {
-    const natureReserve = document.querySelector(".symbols.nature-reserve");
-    const forest = document.querySelector(".symbols.forest");
-    const lake = document.querySelector(".symbols.lake");
-    const beach = document.querySelector(".symbols.beach");
-    const path = document.querySelector(".symbols.path");
-    const BBQ = document.querySelector(".symbols.bbq");
-    const windShield = document.querySelector(".symbols.wind-shield");
-    const stroller = document.querySelector(".symbols.stroller");
-    const wheelchair = document.querySelector(".symbols.wheelchair");
-    const toilet = document.querySelector(".symbols.toilet");
-    const portapotty = document.querySelector(".symbols.portapotty");
-    const parking = document.querySelector(".symbols.parking");
+    const naturreservat = document.querySelector(".symbols.nature-reserve");
+    const skog = document.querySelector(".symbols.forest");
+    const vatten = document.querySelector(".symbols.lake");
+    const badplats = document.querySelector(".symbols.beach");
+    const promenad = document.querySelector(".symbols.path");
+    const grillplats = document.querySelector(".symbols.bbq");
+    const vindskydd = document.querySelector(".symbols.wind-shield");
+    const barnvagn = document.querySelector(".symbols.stroller");
+    const rullstol = document.querySelector(".symbols.wheelchair");
+    const toalett = document.querySelector(".symbols.toilet");
+    const dass = document.querySelector(".symbols.portapotty");
+    const parkering = document.querySelector(".symbols.parking");
 
-    natureReserve.addEventListener("click", () => {
-        console.log("natureReserve");
-        natureReserve.classList.toggle("active");
+    naturreservat.addEventListener("click", () => {
+        console.log("naturreservat");
+        naturreservat.classList.toggle("active");
+        if (naturreservat.classList.contains("active")) {
+            activeSymbols.push("naturreservat");
+            // byt bild till den inverterade
+        } else {
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "naturreservat"); //vad gör denna???
+        }
     });
 
-    forest.addEventListener("click", () => {
+    skog.addEventListener("click", () => {
         console.log("forest");
-        forest.classList.toggle("active");
+        skog.classList.toggle("active");
     });
 
-    lake.addEventListener("click", () => {
+    vatten.addEventListener("click", () => {
         console.log("lake");
-        lake.classList.toggle("active");
+        vatten.classList.toggle("active");
     });
 
-    beach.addEventListener("click", () => {
+    badplats.addEventListener("click", () => {
         console.log("beach");
-        beach.classList.toggle("active");
+        badplats.classList.toggle("active");
     });
 
-    path.addEventListener("click", () => {
+    promenad.addEventListener("click", () => {
         console.log("path");
-        path.classList.toggle("active");
+        promenad.classList.toggle("active");
     });
 
-    BBQ.addEventListener("click", () => {
+    grillplats.addEventListener("click", () => {
         console.log("BBQ");
-        BBQ.classList.toggle("active");
+        grillplats.classList.toggle("active");
     });
 
-    windShield.addEventListener("click", () => {
+    vindskydd.addEventListener("click", () => {
         console.log("windShield");
-        windShield.classList.toggle("active");
+        vindskydd.classList.toggle("active");
     });
 
-    stroller.addEventListener("click", () => {
+    barnvagn.addEventListener("click", () => {
         console.log("stroller");
-        stroller.classList.toggle("active");
+        barnvagn.classList.toggle("active");
     });
 
-    wheelchair.addEventListener("click", () => {
+    rullstol.addEventListener("click", () => {
         console.log("wheelchair");
-        wheelchair.classList.toggle("active");
+        rullstol.classList.toggle("active");
     });
 
-    toilet.addEventListener("click", () => {
+    toalett.addEventListener("click", () => {
         console.log("toilet");
-        toilet.classList.toggle("active");
+        toalett.classList.toggle("active");
     });
 
-    portapotty.addEventListener("click", () => {
+    dass.addEventListener("click", () => {
         console.log("portapotty");
-        portapotty.classList.toggle("active");
+        dass.classList.toggle("active");
     });
 
-    parking.addEventListener("click", () => {
+    parkering.addEventListener("click", () => {
         console.log("parking");
-        parking.classList.toggle("active");
+        parkering.classList.toggle("active");
     });
 
     //de ska söka gemensamt, så sök på alla som är aktiva
