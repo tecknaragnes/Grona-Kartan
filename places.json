@@ -25,7 +25,8 @@
             "naturreservat",
             "promenad",
             "skog",
-            "vatten"
+            "vatten",
+            "fågelskådning"
         ],
         "thumbnail": "img/places/bokhult-thumb",
         "pop-up-img": "img/places/bokhult-pop",
@@ -60,7 +61,9 @@
             "naturreservat",
             "parkering",
             "skog",
-            "vatten"
+            "vatten",
+            "promenad",
+            "paddla"
         ],
         "thumbnail": "img/places/alvsjo-thumb",
         "pop-up-img": "img/places/alvsjo-pop",
@@ -91,7 +94,9 @@
             "grillplats",
             "naturreservat",
             "skog",
-            "vatten"
+            "vatten",
+            "fågelskådning",
+            "promenad"
         ],
         "thumbnail": "img/places/flaten-thumb",
         "pop-up-img": "img/places/flaten-pop",
@@ -122,7 +127,8 @@
             "parkering",
             "promenad",
             "rullstol",
-            "skog"
+            "skog",
+            "fågelskådning"
         ],
         "thumbnail": "img/places/juda-thumb",
         "pop-up-img": "img/places/juda-pop",
@@ -154,7 +160,9 @@
             "parkering",
             "promenad",
             "vatten",
-            "skog"
+            "skog",
+            "fågelskådning",
+            "naturreservat"
         ],
         "thumbnail": "img/places/teleborg-thumb",
         "pop-up-img": "img/places/teleborg-pop",
@@ -182,7 +190,9 @@
             "badplats",
             "vatten",
             "dass",
-            "parkering"
+            "parkering",
+            "promenad",
+            "paddla"
         ],
         "thumbnail": "img/places/helga-thumb",
         "pop-up-img": "img/places/helga-pop",
@@ -213,7 +223,9 @@
             "grillplats",
             "parkering",
             "rullstol",
-            "vatten"
+            "vatten",
+            "promenad",
+            "utegym"
         ],
         "thumbnail": "img/places/brunnsv-thumb",
         "pop-up-img": "img/places/brunnsv-pop",
@@ -248,7 +260,8 @@
             "parkering",
             "promenad",
             "rullstol",
-            "vatten"
+            "vatten",
+            "fågelskådning"
         ],
         "thumbnail": "img/places/drev-thumb",
         "pop-up-img": "img/places/drev-pop",
@@ -310,7 +323,8 @@
         "symbols": [
             "grillplats",
             "promenad",
-            "skog"
+            "skog",
+            "fågelskådning"
         ],
         "thumbnail": "img/places/tyresta-thumb",
         "pop-up-img": "img/places/tyresta-pop",
@@ -408,7 +422,8 @@
             "parkering",
             "promenad",
             "rullstol",
-            "utegym"
+            "utegym",
+            "skog"
         ],
         "thumbnail": "img/places/trummRu-thumb",
         "pop-up-img": "img/places/trummRu-pop",
@@ -467,7 +482,8 @@
         "symbols": [
             "grillplats",
             "promenad",
-            "skog"
+            "skog",
+            "fågelskådning"
         ],
         "thumbnail": "img/places/tyrestaRu-thumb",
         "pop-up-img": "img/places/tyrestaRu-pop",
@@ -490,7 +506,7 @@
         "distance": "",
         "activities": [
             "Bada",
-            "Glass"
+            "Fika"
         ],
         "symbols": [
             "badplats",
@@ -499,7 +515,8 @@
             "parkering",
             "promenad",
             "rullstol",
-            "vatten"
+            "vatten",
+            "fika"
         ],
         "thumbnail": "img/places/skogskallan-thumb",
         "pop-up-img": "img/places/skogskallan-pop",
@@ -521,13 +538,16 @@
         },
         "distance": "",
         "activities": [
-            "Glass",
+            "Fika",
             "Leka"
         ],
         "symbols": [
             "lekplats",
             "barnvagn",
-            "parkering"
+            "parkering",
+            "park",
+            "rullstol",
+            "fika"
         ],
         "thumbnail": "img/places/ornen-thumb",
         "pop-up-img": "img/places/ornen-pop",
@@ -550,7 +570,7 @@
         "distance": "",
         "activities": [
             "Promenad",
-            "Glass",
+            "Fika",
             "Leka"
         ],
         "symbols": [
@@ -558,7 +578,9 @@
             "lekplats",
             "parkering",
             "promenad",
-            "rullstol"
+            "rullstol",
+            "park",
+            "fika"
         ],
         "thumbnail": "img/places/centrum-thumb",
         "pop-up-img": "img/places/centrum-pop",
@@ -582,13 +604,16 @@
         "activities": [
             "Leka",
             "Promenad",
-            "Glass"
+            "Fika"
         ],
         "symbols": [
             "barnvagn",
             "lekplats",
             "parkering",
-            "rullstol"
+            "rullstol",
+            "park",
+            "promenad",
+            "fika"
         ],
         "thumbnail": "img/places/centrumLek-thumb",
         "pop-up-img": "img/places/centrumLek-pop",
@@ -615,7 +640,8 @@
             "parkering",
             "promenad",
             "rullstol",
-            "toalett"
+            "toalett",
+            "trädgård"
         ],
         "thumbnail": "img/places/linne-thumb",
         "pop-up-img": "img/places/linne-pop",
@@ -642,7 +668,8 @@
             "parkering",
             "rullstol",
             "trädgård",
-            "toalett"
+            "toalett",
+            "promenad"
         ],
         "thumbnail": "img/places/gertrud-thumb",
         "pop-up-img": "img/places/gertrud-pop",
@@ -726,7 +753,8 @@
             "barnvagn",
             "lekplats",
             "rullstol",
-            "utegym"
+            "utegym",
+            "park"
         ],
         "thumbnail": "img/places/hov-thumb",
         "pop-up-img": "img/places/hov-pop",
