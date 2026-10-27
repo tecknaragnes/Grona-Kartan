@@ -31,8 +31,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/bokhult-thumb",
-        "pop-up-img": "img/places/bokhult-pop",
-        "detail-img": "img/places/bokhult-det",
+        "popUpIMG": "img/places/bokhult-pop",
+        "detailIMG": "img/places/bokhult-det",
         "fauna": "img/creatures/beetle",
         "flora": "img/creatures/rhododendron"
     },
@@ -70,8 +70,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/alvsjo-thumb",
-        "pop-up-img": "img/places/alvsjo-pop",
-        "detail-img": "img/places/alvsjo-det",
+        "popUpIMG": "img/places/alvsjo-pop",
+        "detailIMG": "img/places/alvsjo-det",
         "fauna": "img/creatures/swan",
         "flora": "img/creatures/moss"
     },
@@ -104,8 +104,8 @@
             "vindskydd"
         ],
         "thumbnail": "img/places/flaten-thumb",
-        "pop-up-img": "img/places/flaten-pop",
-        "detail-img": "img/places/falten-det",
+        "popUpIMG": "img/places/flaten-pop",
+        "detailIMG": "img/places/falten-det",
         "fauna": "img/creatures/woodpecker",
         "flora": "img/creatures/rhododendron"
     },
@@ -137,8 +137,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/juda-thumb",
-        "pop-up-img": "img/places/juda-pop",
-        "detail-img": "img/places/juda-det",
+        "popUpIMG": "img/places/juda-pop",
+        "detailIMG": "img/places/juda-det",
         "fauna": "img/creatures/butterfly",
         "flora": "img/creatures/mushroom"
     },
@@ -173,8 +173,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/teleborg-thumb",
-        "pop-up-img": "img/places/teleborg-pop",
-        "detail-img": "img/places/teleborg-det",
+        "popUpIMG": "img/places/teleborg-pop",
+        "detailIMG": "img/places/teleborg-det",
         "fauna": "img/creatures/woodpecker",
         "flora": "img/creatures/rhododendron"
     },
@@ -204,8 +204,8 @@
             "vindskydd"
         ],
         "thumbnail": "img/places/helga-thumb",
-        "pop-up-img": "img/places/helga-pop",
-        "detail-img": "img/places/helga-det",
+        "popUpIMG": "img/places/helga-pop",
+        "detailIMG": "img/places/helga-det",
         "fauna": "img/creatures/greattit",
         "flora": "img/creatures/lichen"
     },
@@ -238,8 +238,8 @@
             "vindskydd"
         ],
         "thumbnail": "img/places/brunnsv-thumb",
-        "pop-up-img": "img/places/brunnsv-pop",
-        "detail-img": "img/places/brunnsv-det",
+        "popUpIMG": "img/places/brunnsv-pop",
+        "detailIMG": "img/places/brunnsv-det",
         "fauna": "img/creatures/beetle",
         "flora": "img/creatures/mushroom"
     },
@@ -275,8 +275,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/drev-thumb",
-        "pop-up-img": "img/places/drev-pop",
-        "detail-img": "img/places/drev-det",
+        "popUpIMG": "img/places/drev-pop",
+        "detailIMG": "img/places/drev-det",
         "fauna": "img/creatures/butterfly",
         "flora": "img/creatures/moss"
     },
@@ -309,8 +309,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/trummen-thumb",
-        "pop-up-img": "img/places/trummen-pop",
-        "detail-img": "img/places/trummen-det",
+        "popUpIMG": "img/places/trummen-pop",
+        "detailIMG": "img/places/trummen-det",
         "fauna": "img/creatures/woodpecker",
         "flora": "img/creatures/rhododendron"
     },
@@ -341,8 +341,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/tyresta-thumb",
-        "pop-up-img": "img/places/tyresta-pop",
-        "detail-img": "img/places/tyresta-det",
+        "popUpIMG": "img/places/tyresta-pop",
+        "detailIMG": "img/places/tyresta-det",
         "fauna": "img/creatures/greattit",
         "flora": "img/creatures/lichen"
     },
@@ -372,8 +372,8 @@
             "vatten"
         ],
         "thumbnail": "img/places/lill-thumb",
-        "pop-up-img": "img/places/lill-pop",
-        "detail-img": "img/places/lill-det",
+        "popUpIMG": "img/places/lill-pop",
+        "detailIMG": "img/places/lill-det",
         "fauna": "img/creatures/mallard",
         "flora": "img/creatures/lichen"
     },
@@ -407,8 +407,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/drevRu-thumb",
-        "pop-up-img": "img/places/drevRu-pop",
-        "detail-img": "img/places/drevRu-det",
+        "popUpIMG": "img/places/drevRu-pop",
+        "detailIMG": "img/places/drevRu-det",
         "fauna": "img/creatures/perch",
         "flora": "img/creatures/rhododendron"
     },
@@ -442,8 +442,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/trummRu-thumb",
-        "pop-up-img": "img/places/trummRu-pop",
-        "detail-img": "img/places/trummRu-det",
+        "popUpIMG": "img/places/trummRu-pop",
+        "detailIMG": "img/places/trummRu-det",
         "fauna": "img/creatures/perch",
         "flora": "img/creatures/moss"
     },
@@ -474,8 +474,8 @@
             "vatten"
         ],
         "thumbnail": "img/places/lillRu-thumb",
-        "pop-up-img": "img/places/lillRu-pop",
-        "detail-img": "img/places/lillRu-det",
+        "popUpIMG": "img/places/lillRu-pop",
+        "detailIMG": "img/places/lillRu-det",
         "fauna": "img/creatures/woodpecker",
         "flora": "img/creatures/rhododendron"
     },
@@ -503,8 +503,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/tyrestaRu-thumb",
-        "pop-up-img": "img/places/tyrestaRu-pop",
-        "detail-img": "img/places/tyrestaRu-det",
+        "popUpIMG": "img/places/tyrestaRu-pop",
+        "detailIMG": "img/places/tyrestaRu-det",
         "fauna": "img/creatures/pike",
         "flora": "img/creatures/crocus"
     },
@@ -536,8 +536,8 @@
             "fika"
         ],
         "thumbnail": "img/places/skogskallan-thumb",
-        "pop-up-img": "img/places/skogskallan-pop",
-        "detail-img": "img/places/skogskallan-det",
+        "popUpIMG": "img/places/skogskallan-pop",
+        "detailIMG": "img/places/skogskallan-det",
         "fauna": "img/creatures/bluetit",
         "flora": "img/creatures/mushroom"
     },
@@ -568,8 +568,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/ornen-thumb",
-        "pop-up-img": "img/places/ornen-pop",
-        "detail-img": "img/places/ornen-det",
+        "popUpIMG": "img/places/ornen-pop",
+        "detailIMG": "img/places/ornen-det",
         "fauna": "img/creatures/greattit",
         "flora": "img/creatures/moss"
     },
@@ -602,8 +602,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/centrum-thumb",
-        "pop-up-img": "img/places/centrum-pop",
-        "detail-img": "img/places/centrum-det",
+        "popUpIMG": "img/places/centrum-pop",
+        "detailIMG": "img/places/centrum-det",
         "fauna": "img/creatures/ladybug",
         "flora": "img/creatures/mushroom"
     },
@@ -635,8 +635,8 @@
             "fika"
         ],
         "thumbnail": "img/places/centrumLek-thumb",
-        "pop-up-img": "img/places/centrumLek-pop",
-        "detail-img": "img/places/centrumLek-det",
+        "popUpIMG": "img/places/centrumLek-pop",
+        "detailIMG": "img/places/centrumLek-det",
         "fauna": "img/creatures/pike",
         "flora": "img/creatures/mushroom"
     },
@@ -664,8 +664,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/linne-thumb",
-        "pop-up-img": "img/places/linne-pop",
-        "detail-img": "img/places/linne-det",
+        "popUpIMG": "img/places/linne-pop",
+        "detailIMG": "img/places/linne-det",
         "fauna": "img/creatures/pike",
         "flora": "img/creatures/mushroom"
     },
@@ -693,8 +693,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/gertrud-thumb",
-        "pop-up-img": "img/places/gertrud-pop",
-        "detail-img": "img/places/gertrud-det",
+        "popUpIMG": "img/places/gertrud-pop",
+        "detailIMG": "img/places/gertrud-det",
         "fauna": "img/creatures/mallard",
         "flora": "img/creatures/rhododendron"
     },
@@ -719,8 +719,8 @@
             "vindskydd"
         ],
         "thumbnail": "img/places/teleborgGrill-thumb",
-        "pop-up-img": "img/places/teleborgGrill-pop",
-        "detail-img": "img/places/teleborgGrill-det",
+        "popUpIMG": "img/places/teleborgGrill-pop",
+        "detailIMG": "img/places/teleborgGrill-det",
         "fauna": "img/creatures/mallard",
         "flora": "img/creatures/mushroom"
     },
@@ -751,8 +751,8 @@
             "rastplats"
         ],
         "thumbnail": "img/places/linneRu-thumb",
-        "pop-up-img": "img/places/linneRu-pop",
-        "detail-img": "img/places/linneRu-det",
+        "popUpIMG": "img/places/linneRu-pop",
+        "detailIMG": "img/places/linneRu-det",
         "fauna": "img/creatures/butterfly",
         "flora": "img/creatures/mushroom"
     },
@@ -780,8 +780,8 @@
             "park"
         ],
         "thumbnail": "img/places/hov-thumb",
-        "pop-up-img": "img/places/hov-pop",
-        "detail-img": "img/places/hov-det",
+        "popUpIMG": "img/places/hov-pop",
+        "detailIMG": "img/places/hov-det",
         "fauna": "img/creatures/swan",
         "flora": "img/creatures/moss"
     },
@@ -806,8 +806,8 @@
             "utegym"
         ],
         "thumbnail": "img/places/haga-thumb",
-        "pop-up-img": "img/places/haga-pop",
-        "detail-img": "img/places/haga-det",
+        "popUpIMG": "img/places/haga-pop",
+        "detailIMG": "img/places/haga-det",
         "fauna": "img/creatures/perch",
         "flora": "img/creatures/moss"
     }

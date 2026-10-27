@@ -1,12 +1,15 @@
+import { renderDetails } from "./details.js";
+
 const cardHolder = document.querySelector(".cards-holder");
 
 export const renderPlaceCard = (place) => {
-    console.log("place"); //den funkar
     cardHolder.innerHTML = ""; // Clear previous cards, den funkar
 
     for (let p of place) {
         const placeCard = document.createElement("div");
         placeCard.classList.add("place-card");
+        placeCard.classList.add(p.name.replace(/\s+/g, '-').toLowerCase()); // Lägg till en klass baserat på platsens namn, med mellanslag ersatta av bindestreck och små bokstäver
+
         placeCard.innerHTML = `
             <img class="place-card-img" src="${p.thumbnail}.jpg" alt="">
             <div class="place-card-info">
@@ -17,5 +20,7 @@ export const renderPlaceCard = (place) => {
                     <div class="place-card-symbols"></div>
                 </div>`;
         cardHolder.append(placeCard);
+
+        placeCard.addEventListener("click", () => renderDetails(p)); // När kortet klickas, rendera detaljerna för den platsen
     }
 }
