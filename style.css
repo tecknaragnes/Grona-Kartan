@@ -14,6 +14,7 @@ h1,
 h2,
 h3 {
     color: var(--accent-green);
+    /* kör på den där crimson typsnittet som använd i figma */
 }
 
 
@@ -48,6 +49,9 @@ aside {
     background-color: #fff;
     height: 100vh;
     grid-area: aside;
+}
+
+#start-div {
     padding: 0.75em;
 }
 
@@ -102,4 +106,78 @@ input#search-act {
     background-color: var(--accent-green);
     width: 6em;
     border-radius: 0.5em 0 0 0.5em;
+}
+
+
+/* --- FLIK DETALJ --- */
+header {
+    background-color: var(--accent-green);
+    /* Går det att få olika bakgrundsfärger beroende på typ av plats? så att den matchar ikonen */
+    color: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5em;
+    padding: 0.5em;
+}
+
+header #closeBtn {
+    align-self: start;
+    /* Gör krysset lite större */
+}
+
+header #main-symbol {
+    height: 7em;
+    margin: 0.75em;
+    border: #fff 0.2em solid;
+    border-radius: 50%;
+    align-self: center;
+}
+
+header .name-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 3em;
+    margin: 0.1em 0;
+}
+
+header h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0.1em 0;
+}
+
+aside section.detail-info {
+    padding: 0.5em;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5em;
+}
+
+aside div#detail-img-container {
+    height: 20rem;
+    width: 30rem;
+    background-color: var(--accent-green);
+    /* Något fakkar med bilden och containern, så att den inte blir storleken som jag säger... */
+}
+
+aside div#detail-img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+aside section.short-info {
+    background-color: var(--accent-green);
+    color: #fff;
+    padding: 0.5em;
+    margin: 0.5em;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5em;
+    border-radius: 0.5em;
 }
