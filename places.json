@@ -2,6 +2,11 @@
     {
         "id": 1,
         "name": "Bokhultet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "104",
+            "stop": "Bokhultet"
+        },
         "type": "Naturreservat",
         "place": "Bokhultet",
         "subtype": [
@@ -19,10 +24,10 @@
             "Grilla"
         ],
         "symbols": [
+            "naturreservat",
             "barnvagn",
             "dass",
             "grillplats",
-            "naturreservat",
             "promenad",
             "skog",
             "vatten",
@@ -39,6 +44,11 @@
     {
         "id": 2,
         "name": "Älvsjöskogen",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "117",
+            "stop": "Älvsjöskogen"
+        },
         "type": "Naturreservat",
         "place": "Älvsjöskogen",
         "subtype": [
@@ -57,10 +67,10 @@
             "Bada"
         ],
         "symbols": [
+            "naturreservat",
             "badplats",
             "dass",
             "grillplats",
-            "naturreservat",
             "parkering",
             "skog",
             "vatten",
@@ -78,6 +88,11 @@
     {
         "id": 3,
         "name": "Flaten",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "126",
+            "stop": "Flaten"
+        },
         "type": "Naturreservat",
         "place": "Flaten",
         "subtype": [
@@ -95,8 +110,8 @@
             "Grilla"
         ],
         "symbols": [
-            "grillplats",
             "naturreservat",
+            "grillplats",
             "skog",
             "vatten",
             "fågelskådning",
@@ -112,6 +127,11 @@
     {
         "id": 4,
         "name": "Judarskogen",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "138",
+            "stop": "Judarskogen"
+        },
         "type": "Naturreservat",
         "place": "Judarskogen",
         "subtype": [
@@ -127,8 +147,8 @@
             "Promenad"
         ],
         "symbols": [
-            "barnvagn",
             "naturreservat",
+            "barnvagn",
             "parkering",
             "promenad",
             "rullstol",
@@ -145,6 +165,11 @@
     {
         "id": 5,
         "name": "Teleborgs naturreservat",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "142",
+            "stop": "Teleborg norra"
+        },
         "type": "Naturreservat",
         "place": "Teleborgs naturreservat",
         "subtype": [
@@ -162,13 +187,13 @@
             "Fågelskådning"
         ],
         "symbols": [
+            "naturreservat",
             "barnvagn",
             "parkering",
             "promenad",
             "vatten",
             "skog",
             "fågelskådning",
-            "naturreservat",
             "vindskydd",
             "rastplats"
         ],
@@ -181,6 +206,11 @@
     {
         "id": 6,
         "name": "Helgasjön",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "153",
+            "stop": "Helgasjön"
+        },
         "type": "Sjö",
         "place": "Helgasjön",
         "subtype": [],
@@ -195,8 +225,8 @@
             "Paddla"
         ],
         "symbols": [
-            "badplats",
             "vatten",
+            "badplats",
             "dass",
             "parkering",
             "promenad",
@@ -212,6 +242,11 @@
     {
         "id": 7,
         "name": "Brunnsviken",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "164",
+            "stop": "Brunnsviken"
+        },
         "type": "Sjö",
         "place": "Brunnsviken",
         "subtype": [],
@@ -227,12 +262,12 @@
             "Träna"
         ],
         "symbols": [
+            "vatten",
             "badplats",
             "barnvagn",
             "grillplats",
             "parkering",
             "rullstol",
-            "vatten",
             "promenad",
             "utegym",
             "vindskydd"
@@ -246,6 +281,11 @@
     {
         "id": 8,
         "name": "Drevviken",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "175",
+            "stop": "Drevviken"
+        },
         "type": "Sjö",
         "place": "Drevviken",
         "subtype": [
@@ -264,13 +304,13 @@
             "Promenad"
         ],
         "symbols": [
+            "vatten",
             "badplats",
             "barnvagn",
             "lekplats",
             "parkering",
             "promenad",
             "rullstol",
-            "vatten",
             "fågelskådning",
             "rastplats"
         ],
@@ -283,6 +323,11 @@
     {
         "id": 9,
         "name": "Trummen",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "186",
+            "stop": "Trummen södra"
+        },
         "type": "Sjö",
         "place": "Trummen",
         "subtype": [
@@ -317,6 +362,11 @@
     {
         "id": 10,
         "name": "Tyrestaskogen",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "197",
+            "stop": "Tyrestaskogen"
+        },
         "type": "Skog",
         "place": "Tyrestaskogen",
         "subtype": [
@@ -333,9 +383,9 @@
             "Promenad"
         ],
         "symbols": [
+            "skog",
             "grillplats",
             "promenad",
-            "skog",
             "fågelskådning",
             "vindskydd",
             "rastplats"
@@ -349,6 +399,11 @@
     {
         "id": 11,
         "name": "Lillsjöskogen",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "104",
+            "stop": "Lillsjöskogen"
+        },
         "type": "Skog",
         "place": "Lillsjöskogen",
         "subtype": [
@@ -364,11 +419,11 @@
             "Promenad"
         ],
         "symbols": [
+            "skog",
             "badplats",
             "barnvagn",
             "parkering",
             "promenad",
-            "skog",
             "vatten"
         ],
         "thumbnail": "img/places/lill-thumb",
@@ -380,6 +435,11 @@
     {
         "id": 12,
         "name": "Drevviken runt",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "175",
+            "stop": "Drevviken"
+        },
         "type": "Promenadstråk",
         "place": "Drevviken",
         "subtype": [
@@ -397,11 +457,11 @@
             "Leka"
         ],
         "symbols": [
+            "promenad",
             "badplats",
             "barnvagn",
             "lekplats",
             "parkering",
-            "promenad",
             "rullstol",
             "vatten",
             "rastplats"
@@ -415,6 +475,11 @@
     {
         "id": 13,
         "name": "Trummenrundan",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "186",
+            "stop": "Trummen södra"
+        },
         "type": "Promenadstråk",
         "place": "Trummen",
         "subtype": [
@@ -432,10 +497,10 @@
             "Träna"
         ],
         "symbols": [
+            "promenad",
             "vatten",
             "badplats",
             "parkering",
-            "promenad",
             "rullstol",
             "utegym",
             "skog",
@@ -450,6 +515,11 @@
     {
         "id": 14,
         "name": "Lillsjöskogen runt",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "104",
+            "stop": "Lillsjöskogen"
+        },
         "type": "Promenadstråk",
         "place": "Lillsjöskogen",
         "subtype": [
@@ -466,10 +536,10 @@
             "Bada"
         ],
         "symbols": [
+            "promenad",
             "badplats",
             "barnvagn",
             "parkering",
-            "promenad",
             "skog",
             "vatten"
         ],
@@ -482,6 +552,11 @@
     {
         "id": 15,
         "name": "Tyrestapromenaden",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "197",
+            "stop": "Tyrestaskogen"
+        },
         "type": "Promenadstråk",
         "place": "Tyrestaskogen",
         "subtype": [],
@@ -496,8 +571,8 @@
             "Promenad"
         ],
         "symbols": [
-            "grillplats",
             "promenad",
+            "grillplats",
             "skog",
             "fågelskådning",
             "rastplats"
@@ -511,6 +586,11 @@
     {
         "id": 16,
         "name": "Skogskällan",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "175",
+            "stop": "Drevviken"
+        },
         "type": "Badplats",
         "place": "Drevviken",
         "subtype": [
@@ -544,6 +624,11 @@
     {
         "id": 17,
         "name": "Örnens lekplats",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "1",
+            "stop": "Aragatan"
+        },
         "type": "Lekplats",
         "place": "Centrum",
         "subtype": [
@@ -576,6 +661,11 @@
     {
         "id": 18,
         "name": "Centrumparken",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "2",
+            "stop": "Centrumparken"
+        },
         "type": "Park",
         "place": "Centrum",
         "subtype": [
@@ -592,12 +682,12 @@
             "Leka"
         ],
         "symbols": [
+            "park",
             "barnvagn",
             "lekplats",
             "parkering",
             "promenad",
             "rullstol",
-            "park",
             "fika",
             "rastplats"
         ],
@@ -610,6 +700,11 @@
     {
         "id": 19,
         "name": "Centrumparkens lekplats",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "2",
+            "stop": "Centrumparken"
+        },
         "type": "Lekplats",
         "place": "Centrum",
         "subtype": [
@@ -626,8 +721,8 @@
             "Fika"
         ],
         "symbols": [
-            "barnvagn",
             "lekplats",
+            "barnvagn",
             "parkering",
             "rullstol",
             "park",
@@ -643,6 +738,11 @@
     {
         "id": 20,
         "name": "Linnéträdgården",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "1",
+            "stop": "Linnéträdgården"
+        },
         "type": "Trädgård",
         "place": "Centrum",
         "subtype": [],
@@ -655,12 +755,12 @@
             "Promenad"
         ],
         "symbols": [
+            "trädgård",
             "barnvagn",
             "parkering",
             "promenad",
             "rullstol",
             "toalett",
-            "trädgård",
             "rastplats"
         ],
         "thumbnail": "img/places/linne-thumb",
@@ -672,6 +772,11 @@
     {
         "id": 21,
         "name": "Gertruds trädgård",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "104",
+            "stop": "Havregatan"
+        },
         "type": "Trädgård",
         "place": "Haga",
         "subtype": [],
@@ -684,10 +789,10 @@
             "Promenad"
         ],
         "symbols": [
+            "trädgård",
             "barnvagn",
             "parkering",
             "rullstol",
-            "trädgård",
             "toalett",
             "promenad",
             "rastplats"
@@ -701,6 +806,11 @@
     {
         "id": 22,
         "name": "Teleborgs grillplats",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "142",
+            "stop": "Teleborg norra"
+        },
         "type": "Grillplats",
         "place": "Teleborgs naturreservat",
         "subtype": [],
@@ -727,6 +837,11 @@
     {
         "id": 23,
         "name": "Linnérundan",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "104",
+            "stop": "Lillsjöskogen"
+        },
         "type": "Promenadstråk",
         "place": "Lillsjöskogen",
         "subtype": [
@@ -742,8 +857,8 @@
             "Bada"
         ],
         "symbols": [
-            "skog",
             "promenad",
+            "skog",
             "badplats",
             "barnvagn",
             "parkering",
@@ -759,6 +874,11 @@
     {
         "id": 24,
         "name": "Hovs utegym",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "138",
+            "stop": "Bervaldsvägen"
+        },
         "type": "Utegym",
         "place": "Hov",
         "subtype": [
@@ -773,10 +893,10 @@
             "Träna"
         ],
         "symbols": [
+            "utegym",
             "barnvagn",
             "lekplats",
             "rullstol",
-            "utegym",
             "park"
         ],
         "thumbnail": "img/places/hov-thumb",
@@ -788,6 +908,11 @@
     {
         "id": 25,
         "name": "Utegymmet vid Haga",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "transport": {
+            "line": "104",
+            "stop": "Hagaängen"
+        },
         "type": "Utegym",
         "place": "Haga",
         "subtype": [],
@@ -800,10 +925,10 @@
             "Träna"
         ],
         "symbols": [
+            "utegym",
             "barnvagn",
             "parkering",
-            "rullstol",
-            "utegym"
+            "rullstol"
         ],
         "thumbnail": "img/places/haga-thumb",
         "popUpIMG": "img/places/haga-pop",
