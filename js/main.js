@@ -10,7 +10,7 @@ renderMap();
 
 let places;
 const response = await fetch("../places.json");
-places = await response.json(); //hämtas med fetch 
+places = await response.json(); //hämtas med fetch
 
 renderPlaceCard(places); // Visa platserna i sidofliken
 

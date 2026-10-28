@@ -152,13 +152,13 @@ export const listeners = () => {
         vatten.classList.toggle("active");
         if (vatten.classList.contains("active")) {
             activeSymbols.push("vatten");
-            vatten.src = "img/symbols/vattendrag.png";
+            vatten.src = "img/symbols/vatten.png";
             console.log("lägg till vatten");
             console.log(activeSymbols);
         } else {
             console.log("ta bort vatten");
             activeSymbols = activeSymbols.filter(symbol => symbol !== "vatten"); //vad gör denna???
-            vatten.src = "img/symbols/vattendrag-inv.png";
+            vatten.src = "img/symbols/vatten-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
