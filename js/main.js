@@ -1,4 +1,4 @@
-import { renderMap } from './map.js';
+import { renderMap, mapListeners } from './map.js';
 import { renderPlaceCard } from './place-cards.js';
 import { listeners } from './filter.js';
 
@@ -15,3 +15,4 @@ places = await response.json(); //hämtas med fetch
 renderPlaceCard(places); // Visa platserna i sidofliken
 
 listeners();
+mapListeners();
