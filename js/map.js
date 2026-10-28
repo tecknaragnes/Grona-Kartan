@@ -17,12 +17,16 @@ export const renderMap = () => {
         let Y = p.coordinates.Y;
         let pinCoord = L.latLng([Y, X]);
         let myIcon = L.icon({
-            iconUrl: `img/symbols/${p.symbols[0]}.png`,
-            iconSize: [50, 50],
+            iconUrl: `img/symbols/${p.symbols[0]}-pin.png`,
+            iconSize: [50, 57],
+            iconAnchor: [26, 50],
+            shadowUrl: "img/pin-shadow.png",
+            shadowSize: [47.5, 14.5],
+            shadowAnchor: [15, 2]
             // popupAnchor: [-3, -76] //utgår från pin:en
         })
         L.marker(pinCoord, { icon: myIcon }).addTo(map).bindPopup(p.name);
     }
 
-    map.setView([1900, 2400], 1);
+    // map.setView([1900, 2400], 1);
 }
