@@ -14,8 +14,8 @@
             "Vattendrag"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "1300",
+            "Y": "1500"
         },
         "distance": "",
         "activities": [
@@ -56,8 +56,8 @@
             "Vattendrag"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "3500",
+            "Y": "3000"
         },
         "distance": "",
         "activities": [
@@ -100,8 +100,8 @@
             "Vattendrag"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "200",
+            "Y": "2700"
         },
         "distance": "",
         "activities": [
@@ -138,8 +138,8 @@
             "Skog"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "4650",
+            "Y": "2000"
         },
         "distance": "",
         "activities": [
@@ -178,8 +178,8 @@
             "Promenadstråk"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "3000",
+            "Y": "1000"
         },
         "distance": "",
         "activities": [
@@ -215,8 +215,8 @@
         "place": "Helgasjön",
         "subtype": [],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "1600",
+            "Y": "2500"
         },
         "distance": "",
         "activities": [
@@ -251,8 +251,8 @@
         "place": "Brunnsviken",
         "subtype": [],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "3000",
+            "Y": "3000"
         },
         "distance": "",
         "activities": [
@@ -293,8 +293,8 @@
             "Promenadstråk"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "1000",
+            "Y": "3400"
         },
         "distance": "",
         "activities": [
@@ -335,8 +335,8 @@
             "Promenadstråk"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "2850",
+            "Y": "1400"
         },
         "distance": "",
         "activities": [
@@ -373,8 +373,8 @@
             "Promenadstråk"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "4400",
+            "Y": "200"
         },
         "distance": "",
         "activities": [
@@ -397,42 +397,6 @@
         "flora": "img/creatures/lichen"
     },
     {
-        "id": 11,
-        "name": "Lillsjöskogen",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "transport": {
-            "line": "104",
-            "stop": "Lillsjöskogen"
-        },
-        "type": "Skog",
-        "place": "Lillsjöskogen",
-        "subtype": [
-            "Vattendrag"
-        ],
-        "coordinates": {
-            "X": "",
-            "Y": ""
-        },
-        "distance": "",
-        "activities": [
-            "Bada",
-            "Promenad"
-        ],
-        "symbols": [
-            "skog",
-            "badplats",
-            "barnvagn",
-            "parkering",
-            "promenad",
-            "vatten"
-        ],
-        "thumbnail": "img/places/lill-thumb",
-        "popUpIMG": "img/places/lill-pop",
-        "detailIMG": "img/places/lill-det",
-        "fauna": "img/creatures/mallard",
-        "flora": "img/creatures/lichen"
-    },
-    {
         "id": 12,
         "name": "Drevviken runt",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -447,8 +411,8 @@
             "Badplats"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "700",
+            "Y": "3400"
         },
         "distance": "",
         "activities": [
@@ -487,8 +451,8 @@
             "Vattendrag"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "2730",
+            "Y": "1420"
         },
         "distance": "",
         "activities": [
@@ -513,43 +477,6 @@
         "flora": "img/creatures/moss"
     },
     {
-        "id": 14,
-        "name": "Lillsjöskogen runt",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "transport": {
-            "line": "104",
-            "stop": "Lillsjöskogen"
-        },
-        "type": "Promenadstråk",
-        "place": "Lillsjöskogen",
-        "subtype": [
-            "Skog",
-            "Vattendrag"
-        ],
-        "coordinates": {
-            "X": "",
-            "Y": ""
-        },
-        "distance": "",
-        "activities": [
-            "Promenad",
-            "Bada"
-        ],
-        "symbols": [
-            "promenad",
-            "badplats",
-            "barnvagn",
-            "parkering",
-            "skog",
-            "vatten"
-        ],
-        "thumbnail": "img/places/lillRu-thumb",
-        "popUpIMG": "img/places/lillRu-pop",
-        "detailIMG": "img/places/lillRu-det",
-        "fauna": "img/creatures/woodpecker",
-        "flora": "img/creatures/rhododendron"
-    },
-    {
         "id": 15,
         "name": "Tyrestapromenaden",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -561,8 +488,8 @@
         "place": "Tyrestaskogen",
         "subtype": [],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "4250",
+            "Y": "150"
         },
         "distance": "",
         "activities": [
@@ -597,8 +524,8 @@
             "Vattendrag"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "700",
+            "Y": "3400"
         },
         "distance": "",
         "activities": [
@@ -635,8 +562,8 @@
             "Park"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "2450",
+            "Y": "1700"
         },
         "distance": "",
         "activities": [
@@ -672,8 +599,8 @@
             "Lekplats"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "2200",
+            "Y": "1850"
         },
         "distance": "",
         "activities": [
@@ -711,8 +638,8 @@
             "Park"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "2200",
+            "Y": "1850"
         },
         "distance": "",
         "activities": [
@@ -747,8 +674,8 @@
         "place": "Centrum",
         "subtype": [],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "2300",
+            "Y": "1700"
         },
         "distance": "",
         "activities": [
@@ -781,8 +708,8 @@
         "place": "Haga",
         "subtype": [],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "2350",
+            "Y": "2450"
         },
         "distance": "",
         "activities": [
@@ -815,8 +742,8 @@
         "place": "Teleborgs naturreservat",
         "subtype": [],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "3050",
+            "Y": "1200"
         },
         "distance": "",
         "activities": [
@@ -835,43 +762,6 @@
         "flora": "img/creatures/mushroom"
     },
     {
-        "id": 23,
-        "name": "Linnérundan",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "transport": {
-            "line": "104",
-            "stop": "Lillsjöskogen"
-        },
-        "type": "Promenadstråk",
-        "place": "Lillsjöskogen",
-        "subtype": [
-            "Skog"
-        ],
-        "coordinates": {
-            "X": "",
-            "Y": ""
-        },
-        "distance": "",
-        "activities": [
-            "Promenad",
-            "Bada"
-        ],
-        "symbols": [
-            "promenad",
-            "skog",
-            "badplats",
-            "barnvagn",
-            "parkering",
-            "vatten",
-            "rastplats"
-        ],
-        "thumbnail": "img/places/linneRu-thumb",
-        "popUpIMG": "img/places/linneRu-pop",
-        "detailIMG": "img/places/linneRu-det",
-        "fauna": "img/creatures/butterfly",
-        "flora": "img/creatures/mushroom"
-    },
-    {
         "id": 24,
         "name": "Hovs utegym",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -885,8 +775,8 @@
             "Park"
         ],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "2800",
+            "Y": "2200"
         },
         "distance": "",
         "activities": [
@@ -917,8 +807,8 @@
         "place": "Haga",
         "subtype": [],
         "coordinates": {
-            "X": "",
-            "Y": ""
+            "X": "2550",
+            "Y": "2550"
         },
         "distance": "",
         "activities": [
