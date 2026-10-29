@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "crocus",
+        "img": "img/creatures/crocus.jpg",
+        "description": "Krokus är en av vårens tidigaste blommor. Den växer från en knöl och har ofta violetta, gula eller vita kronblad. Blommorna öppnar sig gärna när solen skiner. Krokusens pollen och nektar kan bli mat åt tidiga insekter."
+    },
+    {
+        "id": 2,
+        "name": "butterfly",
+        "img": "img/creatures/butterfly.jpg",
+        "description": "Fjärilar har stora vingar täckta av små, färgade fjäll. De flesta börjar livet som larver och genomgår en förvandling i en puppa. Många vuxna fjärilar dricker nektar ur blommor med sin långa sugsnabel. Fjärilar är viktiga pollinatörer."
+    },
+    {
+        "id": 3,
+        "name": "bok",
+        "img": "img/creatures/bok.jpg",
+        "description": "Boken är ett lövträd med slät, grå bark. Dess blad är gröna under sommaren och får ofta gulbruna färger på hösten. Trädet bildar bokollon som kan ätas av bland annat fåglar och däggdjur. Bokskogar ger skydd och livsmiljö åt många arter."
+    },
+    {
+        "id": 4,
+        "name": "bluetit",
+        "img": "img/creatures/bluetit.jpg",
+        "description": "Blåmesen är en liten fågel med blå hjässa och gula undersidor. Den letar ofta efter insekter och spindlar bland trädens grenar. På vintern äter den också frön och besöker gärna fågelmatare. Blåmesen häckar ofta i håligheter eller fågelholkar."
+    },
+    {
+        "id": 5,
+        "name": "birch",
+        "img": "img/creatures/birch.jpg",
+        "description": "Björken känns ofta igen på sin ljusa bark med mörka märken. Den är ett lövträd som släpper sina blad på hösten. Björkens hängen sprider pollen och frön med vinden. Många insekter och fåglar hittar föda och skydd i trädet."
+    },
+    {
+        "id": 6,
+        "name": "beetle",
+        "img": "img/creatures/beetle.jpg",
+        "description": "Skalbaggar är en stor grupp insekter med hårda täckvingar. Täckvingarna skyddar de tunna flygvingarna och kroppen. Skalbaggar lever i många olika miljöer och äter allt från växter till andra smådjur. De bidrar bland annat till nedbrytningen av dött material."
+    },
+    {
+        "id": 7,
+        "name": "moss",
+        "img": "img/creatures/moss.jpg",
+        "description": "Mossor är små växter som ofta bildar mjuka mattor på mark, sten eller trädstammar. De saknar riktiga rötter och tar upp vatten genom sina blad och stjälkar. Mossor trivs ofta på fuktiga och skuggiga platser. De kan hjälpa marken att hålla kvar vatten."
+    },
+    {
+        "id": 8,
+        "name": "mallard",
+        "img": "img/creatures/mallard.jpg",
+        "description": "Gräsanden är en vanlig simand som ofta lever vid sjöar och dammar. Hanen har vanligtvis ett grönt huvud, medan honan är brunmönstrad. Gräsänder äter bland annat vattenväxter, frön och smådjur. De söker ofta föda genom att tippa fram kroppen och doppa huvudet under vattnet."
+    },
+    {
+        "id": 9,
+        "name": "lichen",
+        "img": "img/creatures/lichen.jpg",
+        "description": "Lav är en livsform som består av en svamp och en alg eller cyanobakterie som lever tillsammans. Den kan växa på stenar, träd och mark. Många lavar växer långsamt och klarar sig på platser där få andra organismer trivs. Lavar kan vara känsliga för luftföroreningar."
+    },
+    {
+        "id": 10,
+        "name": "ladybug",
+        "img": "img/creatures/ladybug.jpg",
+        "description": "Nyckelpigor är små skalbaggar som ofta har prickiga täckvingar. Färgerna kan variera mellan olika arter. Många nyckelpigor äter bladlöss och hjälper därmed till att hålla deras antal nere. Även larverna jagar små insekter."
+    },
+    {
+        "id": 11,
+        "name": "heron",
+        "img": "img/creatures/heron.jpg",
+        "description": "Hägern är en stor vadarfågel med långa ben och en lång, spetsig näbb. Den står ofta stilla vid vatten och väntar på att fånga fisk eller grodor. När den får syn på ett byte hugger den snabbt till med näbben. Hägrar bygger ofta sina bon högt i träd."
+    },
+    {
+        "id": 12,
+        "name": "greattit",
+        "img": "img/creatures/greattit.jpg",
+        "description": "Talgoxen är en liten och lättigenkännlig sångfågel. Den har svart huvud, vita kinder och gul undersida med ett mörkt band. Under sommaren äter den många insekter och larver. På vintern söker den frön och annan föda i trädgårdar och skog."
+    },
+    {
+        "id": 13,
+        "name": "pike",
+        "img": "img/creatures/pike.jpg",
+        "description": "Gäddan är en rovfisk som lever i sjöar och långsamt rinnande vatten. Den har en lång kropp och ett stort gap med många vassa tänder. Gäddan jagar ofta genom att ligga stilla bland vattenväxter och göra snabba utfall. Den äter främst fisk men kan även ta andra smådjur."
+    },
+    {
+        "id": 14,
+        "name": "perch",
+        "img": "img/creatures/perch.jpg",
+        "description": "Abborren är en vanlig fisk i svenska sjöar och längs kusten. Den känns igen på sina mörka ränder och röda eller orange fenor. Unga abborrar äter små kräftdjur och insekter, medan större individer ofta jagar fisk. Abborren kan leva både i stim och ensam."
+    },
+    {
+        "id": 15,
+        "name": "mushroom",
+        "img": "img/creatures/mushroom.jpg",
+        "description": "Svamp är ingen växt, utan tillhör ett eget rike av organismer. Den synliga svampkroppen hjälper till att sprida sporer. Större delen av svampen finns ofta som trådar i marken eller i annat material. Många svampar bryter ner döda organismer och återför näring till naturen."
+    },
+    {
+        "id": 16,
+        "name": "swan",
+        "img": "img/creatures/swan.jpg",
+        "description": "Svanar är stora vattenfåglar med lång hals och kraftig kropp. De simmar ofta på sjöar och äter vattenväxter. Många svanar bildar par som håller ihop under lång tid. Deras bon byggs vanligtvis nära vatten."
+    },
+    {
+        "id": 17,
+        "name": "rhododendron",
+        "img": "img/creatures/rhododendron.jpg",
+        "description": "Rhododendron är en buske som ofta har stora, gröna blad året runt. Den blommar med klasar av färgstarka blommor, vanligtvis på våren eller försommaren. Växten trivs bäst i sur och fuktig jord. Humlor och andra insekter kan besöka blommorna."
+    },
+    {
+        "id": 18,
+        "name": "woodpecker",
+        "img": "img/creatures/woodpecker.jpg",
+        "description": "Hackspettar klättrar på trädstammar med hjälp av starka fötter och styva stjärtfjädrar. De hackar i bark och ved för att hitta insekter eller göra bohål. Deras kraftiga näbb hjälper dem att bearbeta trä. Hackspettens trummande ljud kan höras långt genom skogen."
+    }
+]
