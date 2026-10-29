@@ -8,13 +8,13 @@ body {
     grid-template-columns: 1fr 2fr;
     grid-template-areas:
         "aside main";
+    font-family: "Crimson Text", serif;
 }
 
 h1,
 h2,
 h3 {
     color: var(--accent-green);
-    /* kör på den där crimson typsnittet som använd i figma */
 }
 
 
@@ -78,18 +78,30 @@ input#search-act {
     padding: 0.75em;
 }
 
-#filter-symbols-flex {
+#symbol-filters {
     display: flex;
-    flex-flow: row wrap;
-    gap: 0.5em;
+    flex-flow: column nowrap;
+    gap: 0.4em;
 }
 
-#filter-symbols-flex img {
+#symbol-filters img {
     height: 4em;
 }
 
+#symbol-filters p {
+    margin: 0 0 0.25em 0;
+    color: var(--accent-green);
+    font-weight: bold;
+}
+
+aside #start-div h1 {
+    margin: 0.5em 0 0 0;
+}
+
 .cards-holder {
-    margin: 1em 0;
+    margin: 0.6em 0;
+    height: 58vh;
+    overflow-y: scroll;
 }
 
 .place-card {
@@ -106,6 +118,18 @@ input#search-act {
     background-color: var(--accent-green);
     width: 6em;
     border-radius: 0.5em 0 0 0.5em;
+}
+
+.place-card .place-card-info h2 {
+    margin: 0.5em 0 0.25em;
+}
+
+.place-card .place-card-info p {
+    margin: 0.25em 0;
+}
+
+.place-card .place-card-symbols img {
+    height: 2em;
 }
 
 
@@ -159,16 +183,20 @@ aside section.detail-info {
 }
 
 aside div#detail-img-container {
-    height: 20rem;
-    width: 30rem;
+    height: 14em;
+    width: 19em;
     background-color: var(--accent-green);
-    /* Något fakkar med bilden och containern, så att den inte blir storleken som jag säger... */
+    flex-shrink: 0;
 }
 
 aside div#detail-img-container img {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+aside section.detail-info p {
+    margin: 0;
 }
 
 aside section.short-info {
@@ -180,4 +208,48 @@ aside section.short-info {
     flex-flow: row nowrap;
     gap: 0.5em;
     border-radius: 0.5em;
+}
+
+aside .banner.bann-symbols {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5em;
+    max-width: 50%;
+}
+
+aside .banner.bann-symbols img {
+    height: 3em;
+    border: 0.15em solid #fff;
+    border-radius: 50%;
+}
+
+aside section .banner.bann-transport {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5em;
+}
+
+aside .banner.bann-transport img {
+    height: 3em;
+    align-self: center;
+    border: 0.15em solid #fff;
+    border-radius: 50%;
+}
+
+aside section.trivia {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5em;
+    padding: 0.5em;
+}
+
+aside section.trivia .trivia-img-cont {
+    background-color: var(--accent-green);
+    height: 13em;
+    flex-shrink: 0;
+}
+
+aside .trivia-img-cont img {
+    max-height: 100%;
+    object-fit: cover;
 }

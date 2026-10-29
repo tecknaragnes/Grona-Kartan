@@ -6,13 +6,12 @@ export const renderMap = () => {
     const map = L.map('map', {
         crs: L.CRS.Simple,
         minZoom: -2
-        // startpunkt, min- och maxzoom
     });
     const bounds = [[0, 0], [3500, 4900]];
     let image = L.imageOverlay('../img/kartaFigma.png', bounds).addTo(map);
     map.fitBounds(bounds);
 
-    const URHere = L.marker([1900, 2400]).addTo(map);
+    const URHere = L.marker([1900, 2400]).addTo(map).bindPopup("Du är här!");
 
     for (let p of places) {
         let X = p.coordinates.X;
@@ -69,13 +68,13 @@ export const renderMap = () => {
     const drevRu = L.polyline(drevRuCoo, { color: "green" }).addTo(map);
     //går det att klicka på pathen och då få upp samma som klicken på symbolen?
 
-    // map.setView([1900, 2400], 1);
+    map.setView([1900, 2400], 1);
 }
 
 export const mapListeners = () => {
     //när man klickar på en pin, så ska det kortet bli markerat och hamna längst upp i listan.
     let mapPins = document.querySelectorAll(".leaflet-marker-icon");
-    console.log(mapPins);
+    // console.log(mapPins);
     for (let marker of mapPins) {
         marker.addEventListener("click", () => {
             console.log(marker);
