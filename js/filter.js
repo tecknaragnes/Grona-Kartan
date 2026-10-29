@@ -367,40 +367,5 @@ export const listeners = () => {
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
     });
-
-    cykel.addEventListener("click", () => {
-        console.log("bike");
-        cykel.classList.toggle("active");
-        if (cykel.classList.contains("active")) {
-            activeSymbols.push("cykel");
-            cykel.src = "img/symbols/cykel.png";
-            console.log("lägg till cykel");
-            console.log(activeSymbols);
-        } else {
-            console.log("ta bort cykel");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "cykel");
-            cykel.src = "img/symbols/cykel-inv.png";
-            console.log(activeSymbols);
-        }
-        filterResults(); //kör filterResults varje gång man klickar på en symbol
-    });
-
-    buss.addEventListener("click", () => {
-        console.log("bus");
-        buss.classList.toggle("active");
-        if (buss.classList.contains("active")) {
-            activeSymbols.push("buss");
-            buss.src = "img/symbols/buss.png";
-            console.log("lägg till buss");
-            console.log(activeSymbols);
-        } else {
-            console.log("ta bort buss");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "buss");
-            buss.src = "img/symbols/buss-inv.png";
-            console.log(activeSymbols);
-        }
-        filterResults(); //kör filterResults varje gång man klickar på en symbol
-    });
-
     //de ska söka gemensamt, så sök på alla som är aktiva
 }
