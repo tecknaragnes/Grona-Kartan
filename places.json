@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Bokhultet",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Bokhultet är ett naturreservat med skog och vatten som ger området en varierad natur. Här kan du ta en promenad och upptäcka omgivningen i din egen takt. Den som är intresserad av fåglar kan hålla utkik efter arter längs stigar och vid vattnet. Områdets grönska skapar en rofylld miljö för en paus från vardagen. Det finns en grillplats där du kan slå dig ner för en måltid utomhus. Vindskydd och rastplatser gör det enklare att stanna en stund under utflykten. Ta gärna med kikare och lämna platsen lika fin som du fann den.",
         "transport": {
             "line": "104",
             "stop": "Bokhultet"
@@ -17,7 +17,6 @@
             "X": "1300",
             "Y": "1500"
         },
-        "distance": "",
         "activities": [
             "Promenad",
             "Fågelskådning",
@@ -38,13 +37,13 @@
         "thumbnail": "img/places/bokhult-thumb",
         "popUpIMG": "img/places/bokhult-pop",
         "detailIMG": "img/places/bokhult-det",
-        "fauna": "img/creatures/beetle",
-        "flora": "img/creatures/rhododendron"
+        "fauna": "beetle",
+        "flora": "rhododendron"
     },
     {
         "id": 2,
         "name": "Älvsjöskogen",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Älvsjöskogen är ett naturreservat där skog och vatten möts. Området passar för en promenad bland träd och naturliga miljöer. Här kan du också stanna vid en grillplats och njuta av en måltid utomhus. När vädret tillåter finns möjlighet att bada eller ge sig ut på vattnet med paddel. Vindskydd och rastplatser ger plats för återhämtning längs vägen. Håll utkik efter fåglar och andra tecken på djurliv under besöket. Visa hänsyn till naturen och ta med dig eventuellt skräp hem.",
         "transport": {
             "line": "117",
             "stop": "Älvsjöskogen"
@@ -59,7 +58,6 @@
             "X": "3600",
             "Y": "3000"
         },
-        "distance": "",
         "activities": [
             "Promenad",
             "Grilla",
@@ -82,13 +80,13 @@
         "thumbnail": "img/places/alvsjo-thumb",
         "popUpIMG": "img/places/alvsjo-pop",
         "detailIMG": "img/places/alvsjo-det",
-        "fauna": "img/creatures/swan",
-        "flora": "img/creatures/moss"
+        "fauna": "swan",
+        "flora": "moss"
     },
     {
         "id": 3,
         "name": "Flaten",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Flaten är ett naturreservat med skog och vatten som bjuder in till utflykter året om. Följ med på en promenad och upptäck landskapet i lugn takt. Området lämpar sig också för fågelskådning, så ta gärna med en kikare. Här finns grillplats där du kan göra ett stopp under dagen. Vindskydd ger möjlighet att ta skydd och vila en stund. Rastplatserna passar bra för en paus med matsäck. Kom ihåg att visa hänsyn till växter och djur när du rör dig i reservatet.",
         "transport": {
             "line": "126",
             "stop": "Flaten"
@@ -103,7 +101,6 @@
             "X": "200",
             "Y": "2700"
         },
-        "distance": "",
         "activities": [
             "Promenad",
             "Fågelskådning",
@@ -121,13 +118,13 @@
         "thumbnail": "img/places/flaten-thumb",
         "popUpIMG": "img/places/flaten-pop",
         "detailIMG": "img/places/falten-det",
-        "fauna": "img/creatures/woodpecker",
-        "flora": "img/creatures/rhododendron"
+        "fauna": "woodpecker",
+        "flora": "rhododendron"
     },
     {
         "id": 4,
         "name": "Judarskogen",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Judarskogen är ett naturreservat där skogen står i centrum. Promenadstråk gör det möjligt att upptäcka området till fots. Ta gärna god tid på dig och lägg märke till hur naturen förändras längs vägen. Den som tycker om fåglar kan spana efter dem bland träden och i gläntorna. Rastplatser erbjuder utrymme för en paus under utflykten. Området har även tillgänglighetsanpassade inslag enligt kartans symboler. Hjälp till att bevara den lugna miljön genom att visa hänsyn till naturen.",
         "transport": {
             "line": "138",
             "stop": "Judarskogen"
@@ -141,7 +138,6 @@
             "X": "4650",
             "Y": "2000"
         },
-        "distance": "",
         "activities": [
             "Fågelskådning",
             "Promenad"
@@ -159,13 +155,13 @@
         "thumbnail": "img/places/juda-thumb",
         "popUpIMG": "img/places/juda-pop",
         "detailIMG": "img/places/juda-det",
-        "fauna": "img/creatures/butterfly",
-        "flora": "img/creatures/mushroom"
+        "fauna": "butterfly",
+        "flora": "mushroom"
     },
     {
         "id": 5,
         "name": "Teleborgs naturreservat",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Teleborgs naturreservat bjuder på en blandning av skog, vatten och promenadstråk. Det är en fin plats för en utflykt när du vill komma nära naturen. Följ stigarna och upptäck områdets olika miljöer i din egen takt. Fågelskådning är en av aktiviteterna som passar här. Längs vägen finns möjlighet att stanna vid rastplatser och vindskydd. Området har även parkering och en busshållplats i närheten enligt kartinformationen. Ta med det du behöver och lämna naturen orörd efter besöket.",
         "transport": {
             "line": "142",
             "stop": "Teleborg norra"
@@ -181,7 +177,6 @@
             "X": "3000",
             "Y": "1000"
         },
-        "distance": "",
         "activities": [
             "Promenad",
             "Fågelskådning"
@@ -200,13 +195,13 @@
         "thumbnail": "img/places/teleborg-thumb",
         "popUpIMG": "img/places/teleborg-pop",
         "detailIMG": "img/places/teleborg-det",
-        "fauna": "img/creatures/woodpecker",
-        "flora": "img/creatures/rhododendron"
+        "fauna": "woodpecker",
+        "flora": "rhododendron"
     },
     {
         "id": 6,
         "name": "Helgasjön",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Helgasjön är en plats för dig som vill komma nära vattnet. Här kan du ta en promenad och njuta av omgivningarna. När förhållandena passar går det att bada vid sjön. Du kan också utforska vattnet genom att paddla. Vindskydd ger möjlighet att ta en paus längs utflykten. Parkering och toalett finns markerade i kartinformationen. Ta hänsyn till andra besökare och håll stränderna rena.",
         "transport": {
             "line": "153",
             "stop": "Helgasjön"
@@ -218,7 +213,6 @@
             "X": "1600",
             "Y": "2500"
         },
-        "distance": "",
         "activities": [
             "Promenad",
             "Bada",
@@ -236,13 +230,13 @@
         "thumbnail": "img/places/helga-thumb",
         "popUpIMG": "img/places/helga-pop",
         "detailIMG": "img/places/helga-det",
-        "fauna": "img/creatures/greattit",
-        "flora": "img/creatures/lichen"
+        "fauna": "greattit",
+        "flora": "lichen"
     },
     {
         "id": 7,
         "name": "Brunnsviken",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Brunnsviken erbjuder vattennära miljöer för både avkoppling och aktivitet. Ta en promenad längs området och njut av utsikten över vattnet. När vädret är varmt kan ett dopp bli en skön del av utflykten. Det finns också möjlighet att grilla på anvisad plats. Den som vill röra på sig kan använda området för träning. En paus med fika passar fint mellan aktiviteterna. Visa hänsyn till naturen och till andra som besöker viken.",
         "transport": {
             "line": "164",
             "stop": "Brunnsviken"
@@ -254,7 +248,6 @@
             "X": "3000",
             "Y": "3000"
         },
-        "distance": "",
         "activities": [
             "Bada",
             "Grilla",
@@ -275,13 +268,13 @@
         "thumbnail": "img/places/brunnsv-thumb",
         "popUpIMG": "img/places/brunnsv-pop",
         "detailIMG": "img/places/brunnsv-det",
-        "fauna": "img/creatures/beetle",
-        "flora": "img/creatures/mushroom"
+        "fauna": "beetle",
+        "flora": "mushroom"
     },
     {
         "id": 8,
         "name": "Drevviken",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Drevviken är en sjö där det finns mycket att upptäcka vid vattnet. Här kan du bada, promenera eller slå dig ner för en stunds vila. Området passar även för fågelskådning, särskilt för dig som tar med kikare. Det finns utrymme för lek och andra utomhusaktiviteter. Ta en paus och njut av naturen omkring dig. Sjön och dess omgivningar förändras med årstiderna. Kom ihåg att visa hänsyn till djurlivet och hålla rent efter dig.",
         "transport": {
             "line": "175",
             "stop": "Drevviken"
@@ -296,7 +289,6 @@
             "X": "1000",
             "Y": "3400"
         },
-        "distance": "",
         "activities": [
             "Bada",
             "Fågelskådning",
@@ -317,13 +309,13 @@
         "thumbnail": "img/places/drev-thumb",
         "popUpIMG": "img/places/drev-pop",
         "detailIMG": "img/places/drev-det",
-        "fauna": "img/creatures/butterfly",
-        "flora": "img/creatures/moss"
+        "fauna": "butterfly",
+        "flora": "moss"
     },
     {
         "id": 9,
         "name": "Trummen",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Trummen är en sjö som passar för utflykter i närheten av vatten. Ta en promenad och upptäck omgivningarna längs vägen. Under varma dagar kan du stanna för ett dopp. Om du vill få in mer rörelse går det också att träna i området. Sjön ger en fin inramning för en lugn paus utomhus. Besök gärna platsen vid olika tider på året för att se hur naturen skiftar. Ta hand om området och visa hänsyn till andra besökare.",
         "transport": {
             "line": "186",
             "stop": "Trummen södra"
@@ -338,7 +330,6 @@
             "X": "2850",
             "Y": "1400"
         },
-        "distance": "",
         "activities": [
             "Bada",
             "Promenad",
@@ -356,13 +347,13 @@
         "thumbnail": "img/places/trummen-thumb",
         "popUpIMG": "img/places/trummen-pop",
         "detailIMG": "img/places/trummen-det",
-        "fauna": "img/creatures/woodpecker",
-        "flora": "img/creatures/rhododendron"
+        "fauna": "woodpecker",
+        "flora": "rhododendron"
     },
     {
         "id": 10,
         "name": "Tyrestaskogen",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Tyrestaskogen är ett skogsområde för dig som vill komma ut på en naturutflykt. Följ promenadstråken och njut av lugnet bland träden. Här finns fina möjligheter att spana efter fåglar. Grillplatser gör det möjligt att stanna för en måltid utomhus. Ta med matsäck och gör utflykten till en längre paus från vardagen. Skogen bjuder på nya intryck under årets olika årstider. Rör dig varsamt och lämna inga spår efter besöket.",
         "transport": {
             "line": "197",
             "stop": "Tyrestaskogen"
@@ -376,7 +367,6 @@
             "X": "4400",
             "Y": "200"
         },
-        "distance": "",
         "activities": [
             "Fågelskådning",
             "Grilla",
@@ -393,13 +383,13 @@
         "thumbnail": "img/places/tyresta-thumb",
         "popUpIMG": "img/places/tyresta-pop",
         "detailIMG": "img/places/tyresta-det",
-        "fauna": "img/creatures/greattit",
-        "flora": "img/creatures/lichen"
+        "fauna": "greattit",
+        "flora": "lichen"
     },
     {
         "id": 12,
         "name": "Drevviken runt",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Drevviken runt är ett promenadstråk för dig som vill upptäcka sjön och dess omgivningar. Ta vägen i din egen takt och stanna till när utsikten lockar. Längs utflykten finns möjlighet att bada när vädret passar. Området lämpar sig också för en stunds lek utomhus. Promenaden kan bli en lugn paus eller en längre tur. Håll utkik efter naturen och djurlivet i närheten av vattnet. Visa hänsyn till andra som använder stråket och lämna platsen ren.",
         "transport": {
             "line": "175",
             "stop": "Drevviken"
@@ -414,7 +404,6 @@
             "X": "700",
             "Y": "3400"
         },
-        "distance": "",
         "length": 2.8,
         "activities": [
             "Bada",
@@ -434,13 +423,13 @@
         "thumbnail": "img/places/drevRu-thumb",
         "popUpIMG": "img/places/drevRu-pop",
         "detailIMG": "img/places/drevRu-det",
-        "fauna": "img/creatures/perch",
-        "flora": "img/creatures/rhododendron"
+        "fauna": "perch",
+        "flora": "rhododendron"
     },
     {
         "id": 13,
         "name": "Trummenrundan",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Trummenrundan är ett promenadstråk som låter dig uppleva sjön från flera håll. Ta en lugn tur och njut av miljön längs vägen. Du kan också använda rundan som en del av din träning. När vädret är varmt går det att kombinera promenaden med ett dopp. Sträckan passar för en kort utflykt eller en längre stund utomhus. Ta med vatten och kläder efter väder. Hjälp till att hålla området trivsamt för alla besökare.",
         "transport": {
             "line": "186",
             "stop": "Trummen södra"
@@ -455,7 +444,6 @@
             "X": "2730",
             "Y": "1420"
         },
-        "distance": "",
         "length": 3,
         "activities": [
             "Bada",
@@ -475,13 +463,13 @@
         "thumbnail": "img/places/trummRu-thumb",
         "popUpIMG": "img/places/trummRu-pop",
         "detailIMG": "img/places/trummRu-det",
-        "fauna": "img/creatures/perch",
-        "flora": "img/creatures/moss"
+        "fauna": "perch",
+        "flora": "moss"
     },
     {
         "id": 15,
         "name": "Tyrestapromenaden",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Tyrestapromenaden tar dig genom ett skogsområde där naturen får stå i fokus. Följ stråket och njut av promenaden bland träden. Den som är intresserad av fåglar kan hålla utkik längs vägen. Grillplatser ger möjlighet att göra ett längre stopp. Ta gärna med matsäck och planera in en paus under turen. Skogen är fin att uppleva under alla årstider. Visa hänsyn till växter och djur när du rör dig i området.",
         "transport": {
             "line": "197",
             "stop": "Tyrestaskogen"
@@ -493,7 +481,6 @@
             "X": "4250",
             "Y": "150"
         },
-        "distance": "",
         "length": 4.2,
         "activities": [
             "Fågelskådning",
@@ -510,13 +497,13 @@
         "thumbnail": "img/places/tyrestaRu-thumb",
         "popUpIMG": "img/places/tyrestaRu-pop",
         "detailIMG": "img/places/tyrestaRu-det",
-        "fauna": "img/creatures/pike",
-        "flora": "img/creatures/crocus"
+        "fauna": "pike",
+        "flora": "crocus"
     },
     {
         "id": 16,
         "name": "Skogskällan",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Skogskällan är en badplats vid Drevviken där du kan njuta av en dag nära vattnet. Ta ett dopp när vädret och förhållandena känns bra. Efter badet passar det fint att slå sig ner för en fika. Platsen fungerar som ett enkelt utflyktsmål för en lugn stund utomhus. Kom ihåg att ta med allt skräp när du går. Visa hänsyn till andra badgäster och håll stranden trivsam. Kontrollera alltid lokala förhållanden innan du badar.",
         "transport": {
             "line": "175",
             "stop": "Drevviken"
@@ -530,7 +517,6 @@
             "X": "800",
             "Y": "3400"
         },
-        "distance": "",
         "activities": [
             "Bada",
             "Fika"
@@ -548,13 +534,13 @@
         "thumbnail": "img/places/skogskallan-thumb",
         "popUpIMG": "img/places/skogskallan-pop",
         "detailIMG": "img/places/skogskallan-det",
-        "fauna": "img/creatures/bluetit",
-        "flora": "img/creatures/mushroom"
+        "fauna": "bluetit",
+        "flora": "mushroom"
     },
     {
         "id": 17,
         "name": "Örnens lekplats",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Örnens lekplats är en plats för lek och utevistelse i Centrum. Här kan barn få röra på sig och hitta på egna lekar. Vuxna kan passa på att ta en paus medan barnen leker. Ta gärna med fika och gör besöket till en liten utflykt. Lekplatsen passar bra för en stund utomhus i vardagen. Visa hänsyn till andra familjer som använder platsen. Hjälp till att hålla lekytan ren och trevlig.",
         "transport": {
             "line": "1",
             "stop": "Aragatan"
@@ -568,7 +554,6 @@
             "X": "2450",
             "Y": "1700"
         },
-        "distance": "",
         "activities": [
             "Fika",
             "Leka"
@@ -585,13 +570,13 @@
         "thumbnail": "img/places/ornen-thumb",
         "popUpIMG": "img/places/ornen-pop",
         "detailIMG": "img/places/ornen-det",
-        "fauna": "img/creatures/greattit",
-        "flora": "img/creatures/moss"
+        "fauna": "greattit",
+        "flora": "moss"
     },
     {
         "id": 18,
         "name": "Centrumparken",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Centrumparken är en grön plats för en paus mitt i Centrum. Ta en promenad genom parken och njut av miljön omkring dig. Här finns också utrymme för lek och aktiviteter utomhus. Slå dig ner med en fika och låt tempot sakta ner en stund. Parken passar både för ett kort stopp och en längre paus. Den är ett trevligt utflyktsmål för människor i olika åldrar. Hjälp till att hålla platsen ren och trivsam för alla.",
         "transport": {
             "line": "2",
             "stop": "Centrumparken"
@@ -605,7 +590,6 @@
             "X": "2200",
             "Y": "1900"
         },
-        "distance": "",
         "activities": [
             "Promenad",
             "Fika",
@@ -624,13 +608,13 @@
         "thumbnail": "img/places/centrum-thumb",
         "popUpIMG": "img/places/centrum-pop",
         "detailIMG": "img/places/centrum-det",
-        "fauna": "img/creatures/ladybug",
-        "flora": "img/creatures/mushroom"
+        "fauna": "ladybug",
+        "flora": "mushroom"
     },
     {
         "id": 19,
         "name": "Centrumparkens lekplats",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Centrumparkens lekplats erbjuder utrymme för lek i en grön miljö. Barn kan upptäcka platsen och hitta på lekar tillsammans. Vuxna kan följa med eller ta en paus i närheten. Ta gärna med fika för att göra besöket lite längre. Lekplatsen ligger i Centrum och passar för en stund utomhus. Visa hänsyn till andra som leker och vistas i parken. Hjälp till att hålla lekplatsen ren och inbjudande.",
         "transport": {
             "line": "2",
             "stop": "Centrumparken"
@@ -644,7 +628,6 @@
             "X": "2250",
             "Y": "1850"
         },
-        "distance": "",
         "activities": [
             "Leka",
             "Promenad",
@@ -662,13 +645,13 @@
         "thumbnail": "img/places/centrumLek-thumb",
         "popUpIMG": "img/places/centrumLek-pop",
         "detailIMG": "img/places/centrumLek-det",
-        "fauna": "img/creatures/pike",
-        "flora": "img/creatures/mushroom"
+        "fauna": "pike",
+        "flora": "mushroom"
     },
     {
         "id": 20,
         "name": "Linnéträdgården",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Linnéträdgården är en trädgård i Centrum där du kan stanna upp och njuta av grönskan. Ta en promenad och upptäck växterna i din egen takt. Trädgården passar för en lugn stund utomhus. Besök den gärna under olika årstider för att se hur uttrycket förändras. Ta med en vän eller njut av en stillsam stund på egen hand. Var varsam med växterna och håll dig till de ytor som är öppna för besökare. Lämna trädgården lika fin för nästa person.",
         "transport": {
             "line": "1",
             "stop": "Linnéträdgården"
@@ -680,7 +663,6 @@
             "X": "2300",
             "Y": "1700"
         },
-        "distance": "",
         "activities": [
             "Promenad"
         ],
@@ -696,13 +678,13 @@
         "thumbnail": "img/places/linne-thumb",
         "popUpIMG": "img/places/linne-pop",
         "detailIMG": "img/places/linne-det",
-        "fauna": "img/creatures/pike",
-        "flora": "img/creatures/mushroom"
+        "fauna": "pike",
+        "flora": "mushroom"
     },
     {
         "id": 21,
         "name": "Gertruds trädgård",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Gertruds trädgård är en grön plats i Haga för en stillsam promenad. Ta dig tid att se dig omkring och njuta av växtligheten. Trädgården passar bra för en kort paus från vardagens tempo. Här kan du följa årstidernas skiftningar i en lugn miljö. Gå gärna en sväng tillsammans med någon eller på egen hand. Visa omtanke om växterna och andra besökare. Lämna platsen i gott skick efter ditt besök.",
         "transport": {
             "line": "104",
             "stop": "Havregatan"
@@ -714,7 +696,6 @@
             "X": "2350",
             "Y": "2450"
         },
-        "distance": "",
         "activities": [
             "Promenad"
         ],
@@ -730,13 +711,13 @@
         "thumbnail": "img/places/gertrud-thumb",
         "popUpIMG": "img/places/gertrud-pop",
         "detailIMG": "img/places/gertrud-det",
-        "fauna": "img/creatures/mallard",
-        "flora": "img/creatures/rhododendron"
+        "fauna": "mallard",
+        "flora": "rhododendron"
     },
     {
         "id": 22,
         "name": "Teleborgs grillplats",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Teleborgs grillplats ligger i anslutning till Teleborgs naturreservat. Här kan du samlas med vänner eller familj för en måltid utomhus. Passa gärna på att kombinera grillningen med en promenad i området. Naturen runt omkring gör platsen till ett trevligt stopp under utflykten. Ta med det du behöver och kontrollera eventuella eldningsregler innan du tänder grillen. Släck ordentligt efter dig och lämna platsen ren. Visa hänsyn till både naturen och andra besökare.",
         "transport": {
             "line": "142",
             "stop": "Teleborg norra"
@@ -748,7 +729,6 @@
             "X": "3050",
             "Y": "1200"
         },
-        "distance": "",
         "activities": [
             "Grilla"
         ],
@@ -761,13 +741,13 @@
         "thumbnail": "img/places/teleborgGrill-thumb",
         "popUpIMG": "img/places/teleborgGrill-pop",
         "detailIMG": "img/places/teleborgGrill-det",
-        "fauna": "img/creatures/mallard",
-        "flora": "img/creatures/mushroom"
+        "fauna": "mallard",
+        "flora": "mushroom"
     },
     {
         "id": 24,
         "name": "Hovs utegym",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Hovs utegym är en plats för träning utomhus i Hov. Här kan du lägga upp ett pass i din egen takt. Träningen kan bli ett bra avbrott under en promenad eller en del av din vanliga rutin. Anpassa övningarna efter din nivå och värm gärna upp innan du börjar. Frisk luft och rörelse gör det enkelt att få in aktivitet i vardagen. Visa hänsyn till andra som använder gymmet. Lämna utrustningen och området i gott skick efter passet.",
         "transport": {
             "line": "138",
             "stop": "Bervaldsvägen"
@@ -781,7 +761,6 @@
             "X": "2800",
             "Y": "2200"
         },
-        "distance": "",
         "activities": [
             "Träna"
         ],
@@ -795,13 +774,13 @@
         "thumbnail": "img/places/hov-thumb",
         "popUpIMG": "img/places/hov-pop",
         "detailIMG": "img/places/hov-det",
-        "fauna": "img/creatures/swan",
-        "flora": "img/creatures/moss"
+        "fauna": "swan",
+        "flora": "moss"
     },
     {
         "id": 25,
         "name": "Utegymmet vid Haga",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "Utegymmet vid Haga gör det möjligt att träna utomhus i en grön miljö. Kom hit för ett kort pass eller som en del av en längre träningsrunda. Du kan anpassa övningarna efter dina egna förutsättningar. Börja gärna lugnt och värm upp innan du tränar. Platsen passar både för egen träning och för aktivitet tillsammans med andra. Visa hänsyn när flera använder utrustningen samtidigt. Se till att lämna området rent och redo för nästa besökare.",
         "transport": {
             "line": "104",
             "stop": "Hagaängen"
@@ -813,7 +792,6 @@
             "X": "2550",
             "Y": "2550"
         },
-        "distance": "",
         "activities": [
             "Träna"
         ],
@@ -826,7 +804,7 @@
         "thumbnail": "img/places/haga-thumb",
         "popUpIMG": "img/places/haga-pop",
         "detailIMG": "img/places/haga-det",
-        "fauna": "img/creatures/perch",
-        "flora": "img/creatures/moss"
+        "fauna": "perch",
+        "flora": "moss"
     }
 ]
