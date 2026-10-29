@@ -128,6 +128,14 @@ aside #start-div h1 {
     margin: 0.25em 0;
 }
 
+.place-card .place-card-symbols {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.2em;
+    margin: 0.5em 0.5em 0.5em auto;
+    align-items: end;
+}
+
 .place-card .place-card-symbols img {
     height: 2em;
 }

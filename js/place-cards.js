@@ -16,11 +16,11 @@ export const renderPlaceCard = (place) => {
                 <h2>${p.name}</h2>
                 <p>${p.type}</p>
                 <p class="place-distance">km bort</p>
-                <div class="place-card-symbols ${}"></div>
+                <div class="place-card-symbols"></div>
             </div>`;
         cardHolder.append(placeCard);
 
-        const symbolContainer = document.querySelector(".place-card-symbols"); //tror denna gör så att alla hamnara i samma kort
+        const symbolContainer = placeCard.querySelector(".place-card-symbols");
         const symbols = p.symbols;
         for (let s of symbols) {
             let symb = document.createElement("img");
