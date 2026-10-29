@@ -30,7 +30,46 @@ export const renderMap = () => {
         L.marker(pinCoord, { icon: myIcon }).addTo(map).bindPopup(p.name);
     }
 
-    map.setView([1900, 2400], 1);
+    const trummenRuCoo = [
+        [1420, 2730],
+        [1520, 2730],
+        [1590, 2650],
+        [1700, 2680],
+        [1700, 2720],
+        [1520, 2930],
+        [1300, 3000],
+        [1260, 2990],
+        [1370, 2730],
+        [1420, 2730]
+    ]
+    const trummenRundan = L.polyline(trummenRuCoo, { color: "red" }).addTo(map);
+
+    const tyrestaRuCoo = [
+        [150, 4250],
+        [280, 4270],
+        [300, 4550],
+        [260, 4700],
+        [150, 4800],
+        [100, 4730],
+        [50, 4300],
+        [150, 4250]
+    ]
+    const tyrestaRu = L.polyline(tyrestaRuCoo, { color: "blue" }).addTo(map);
+
+    const drevRuCoo = [
+        [3400, 700],
+        [3370, 750],
+        [3390, 860],
+        [3200, 1050],
+        [3000, 750],
+        [3150, 740],
+        [3350, 680],
+        [3400, 700]
+    ]
+    const drevRu = L.polyline(drevRuCoo, { color: "green" }).addTo(map);
+    //går det att klicka på pathen och då få upp samma som klicken på symbolen?
+
+    // map.setView([1900, 2400], 1);
 }
 
 export const mapListeners = () => {

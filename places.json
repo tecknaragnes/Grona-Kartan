@@ -415,6 +415,7 @@
             "Y": "3400"
         },
         "distance": "",
+        "length": 2.8,
         "activities": [
             "Bada",
             "Promenad",
@@ -455,6 +456,7 @@
             "Y": "1420"
         },
         "distance": "",
+        "length": 3,
         "activities": [
             "Bada",
             "Promenad",
@@ -492,6 +494,7 @@
             "Y": "150"
         },
         "distance": "",
+        "length": 4.2,
         "activities": [
             "Fågelskådning",
             "Grilla",
@@ -524,7 +527,7 @@
             "Vattendrag"
         ],
         "coordinates": {
-            "X": "700",
+            "X": "800",
             "Y": "3400"
         },
         "distance": "",
