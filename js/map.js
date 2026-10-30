@@ -13,7 +13,7 @@ export const renderMap = () => {
     let image = L.imageOverlay('img/kartaFigma.png', bounds).addTo(map);
     map.fitBounds(bounds);
 
-    const URHere = L.marker([1900, 2400]).addTo(map).bindPopup("Du är här!");
+    const URHere = L.marker([1900, 2400]).addTo(map).bindPopup("Du är här!").openPopup(); //gör openPopup att "Du är här!" öppnas direkt????
 
     for (let p of places) {
         let X = p.coordinates.X;
@@ -23,12 +23,13 @@ export const renderMap = () => {
             iconUrl: `img/symbols/${p.symbols[0]}-pin.png`,
             iconSize: [50, 57],
             iconAnchor: [26, 50],
+            popupAnchor: [-3, -76], //blir denna bra med pin-popup
             shadowUrl: "img/pin-shadow.png",
             shadowSize: [47.5, 14.5],
             shadowAnchor: [15, 2],
             className: `${p.id}`
         });
-        const marker = L.marker(pinCoord, { icon: myIcon }).addTo(map).bindPopup(p.name);
+        const marker = L.marker(pinCoord, { icon: myIcon }).addTo(map);
 
         marker.on("click", () => highlightPlaceCard(p.id));
     }
@@ -73,4 +74,5 @@ export const renderMap = () => {
     //går det att klicka på pathen och då få upp samma som klicken på symbolen?
 
     map.setView([1900, 2400], 1);
+    return map;
 }

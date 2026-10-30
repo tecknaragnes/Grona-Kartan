@@ -8,6 +8,11 @@ const triviaByName = new Map(triviaItems.map(item => [item.name, item]));
 console.log(triviaItems);
 console.log(triviaByName);
 
+let map;
+export const setMap = (mapInstance) => {
+    map = mapInstance;
+}
+
 const startDiv = document.getElementById("start-div");
 const detailDiv = document.getElementById("detail-div");
 
@@ -17,7 +22,7 @@ export const renderDetails = (p) => {
     detailDiv.innerHTML = ""; // Clear previous details
     const body = document.querySelector("body");
     body.style.gridTemplateColumns = "1fr 1fr"; // ska man göra detaljsidan bredare? asså att den tar upp mer av skärmen
-    // map.setView([p.coordinates.X, p.coordinates.Y], 1); // denna funkar inte här inne
+    map.setView([p.coordinates.Y, p.coordinates.X], 1);
 
     detailDiv.innerHTML = `
     <header>
@@ -49,6 +54,8 @@ export const renderDetails = (p) => {
                 <p>10 min</p>
             </div>
         </div>
+        <div class="banner bann-terrain"></div>
+        <div class="banner bann-distance"></div>
     </section>
 
     <section class="trivia">

@@ -138,10 +138,13 @@ aside #start-div h1 {
 
 .place-card .place-card-symbols img {
     height: 2em;
+    border: #fff 0.2em solid;
+    border-radius: 50%;
 }
 
 .place-card--highlighted {
-    outline: 3px solid var(--accent-green);
+    background-color: var(--accent-green);
+    color: #fff;
 }
 
 
@@ -156,8 +159,9 @@ header {
     padding: 0.5em;
 }
 
-header #closeBtn {
+header #cross-container {
     align-self: start;
+    height: 1.5em;
     /* Gör krysset lite större */
 }
 

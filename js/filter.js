@@ -67,6 +67,7 @@ export const listeners = () => {
     const paddla = document.querySelector(".symbols.canoe");
     const grillplats = document.querySelector(".symbols.bbq");
     const vindskydd = document.querySelector(".symbols.wind-shield");
+    const lekplats = document.querySelector(".symbols.playground");
     const utegym = document.querySelector(".symbols.gym");
     const rastplats = document.querySelector(".symbols.bench");
     const fika = document.querySelector(".symbols.cafe");
@@ -275,6 +276,23 @@ export const listeners = () => {
             console.log("ta bort utegym");
             activeSymbols = activeSymbols.filter(symbol => symbol !== "utegym");
             utegym.src = "img/symbols/utegym-inv.png";
+            console.log(activeSymbols);
+        }
+        filterResults(); //kör filterResults varje gång man klickar på en symbol
+    });
+
+    lekplats.addEventListener("click", () => {
+        console.log("lekplats");
+        lekplats.classList.toggle("active");
+        if (lekplats.classList.contains("active")) {
+            activeSymbols.push("lekplats");
+            lekplats.src = "img/symbols/lekplats.png";
+            console.log("lägg till lekplats");
+            console.log(activeSymbols);
+        } else {
+            console.log("ta bort lekplats");
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "lekplats");
+            utegym.src = "img/symbols/lekplats-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
