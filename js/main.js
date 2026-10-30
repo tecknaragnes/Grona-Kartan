@@ -1,7 +1,6 @@
 import { renderMap, mapListeners } from './map.js';
 import { renderPlaceCard } from './place-cards.js';
 import { listeners } from './filter.js';
-import { searchPlaces } from './search.js';
 
 const startDiv = document.getElementById("start-div");
 const detailDiv = document.getElementById("detail-div");

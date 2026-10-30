@@ -4,26 +4,58 @@ let places;
 const response = await fetch("../places.json");
 places = await response.json(); //hämtas med fetch 
 
-let activeSymbols = []; // gör en array med alla symboler
+const searchInput = document.getElementById("search-act");
+const searchButton = document.getElementById("search-btn");
 
-const filterResults = () => {
-    let filtered;
-
-    if (activeSymbols.length > 0) {
-        console.log("Aktiva filter: ", activeSymbols);
-        filtered = places.filter(p => activeSymbols.every(symbol => p.symbols.includes(symbol))); //går igenom arrayen symbols
-        console.log("Filtrerade resultat: ", filtered);
-        renderPlaceCard(filtered);
-
-    } else {
-        console.log("Inga filter aktiva");
-        // här måste alla visas igen, annars blir det tomt när man tar bort alla filter
-        renderPlaceCard(places);
-        console.log("Alla platser visas igen");
-    }
+//sökning
+let searchQuery = "";
+const normalize = (text) => { // normalize gör sökningen okänslig för stora och små bokstäver
+    return text
+        .trim()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLocaleLowerCase("sv");
 }
 
+const searchPlaces = (places, query) => {
+    const searchTerm = normalize(query);
+
+    if (!searchTerm) return places;
+
+    return places.filter((place) => {
+        const searchableFields = [
+            place.name,
+            place.type,
+            place.description,
+            place.place,
+            ...place.activities,
+            ...place.subtype
+        ];
+
+        return searchableFields.some((field) =>
+            normalize(field).includes(searchTerm)
+        );
+    });
+};
+
+//filter-symboler
+let activeSymbols = []; // gör en array med alla symboler
+
+export const filterResults = () => {
+    const symbolFiltered = activeSymbols.length > 0
+        ? places.filter(place =>
+            activeSymbols.every(symbol => place.symbols.includes(symbol)) //går igenom arrayen symbols
+        )
+        : places; // här måste alla visas igen, annars blir det tomt när man tar bort alla filter
+
+    const results = searchPlaces(symbolFiltered, searchInput.value);
+    renderPlaceCard(results);
+};
+
 export const listeners = () => {
+    searchInput.addEventListener("input", filterResults);
+    searchButton.addEventListener("click", filterResults);
+
     const naturreservat = document.querySelector(".symbols.nature-reserve");
     const skog = document.querySelector(".symbols.forest");
     const promenad = document.querySelector(".symbols.path");
@@ -43,8 +75,7 @@ export const listeners = () => {
     const toalett = document.querySelector(".symbols.toilet");
     const dass = document.querySelector(".symbols.portapotty");
     const parkering = document.querySelector(".symbols.parking");
-    const cykel = document.querySelector(".symbols.bike");
-    const buss = document.querySelector(".symbols.bus");
+
 
     naturreservat.addEventListener("click", () => {
         console.log("naturreservat");
