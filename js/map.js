@@ -1,5 +1,5 @@
 let places;
-const response = await fetch("../places.json");
+const response = await fetch("places.json");
 places = await response.json(); //hämtas med fetch
 
 export const renderMap = () => {
@@ -80,6 +80,7 @@ export const mapListeners = () => {
             console.log(marker);
             //kopppla index i mapPins till index i obejktlistan? och därifrån få sätt platskort 
             // nu finns id:et i klassnamnet, så det kanske går att hitta
+
         })
     }
 

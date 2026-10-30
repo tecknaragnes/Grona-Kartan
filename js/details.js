@@ -1,5 +1,5 @@
 let places;
-const response = await fetch("../places.json");
+const response = await fetch("places.json");
 places = await response.json(); //hämtas med fetch
 
 const response2 = await fetch("../trivia.json");
