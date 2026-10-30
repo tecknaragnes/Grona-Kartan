@@ -28,7 +28,7 @@ export const renderMap = () => {
             shadowAnchor: [15, 2],
             className: `${p.id}`
         });
-        L.marker(pinCoord, { icon: myIcon }).addTo(map).bindPopup(p.name);
+        const marker = L.marker(pinCoord, { icon: myIcon }).addTo(map).bindPopup(p.name);
 
         marker.on("click", () => highlightPlaceCard(p.id));
     }
