@@ -2,7 +2,7 @@ let places;
 const response = await fetch("places.json");
 places = await response.json(); //hämtas med fetch
 
-const response2 = await fetch("../trivia.json");
+const response2 = await fetch("trivia.json");
 const triviaItems = await response2.json();
 const triviaByName = new Map(triviaItems.map(item => [item.name, item]));
 console.log(triviaItems);

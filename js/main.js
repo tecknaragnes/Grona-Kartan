@@ -9,7 +9,7 @@ detailDiv.style.display = "none"; // Visa startdiv och dölj detaildiv vid sidla
 renderMap();
 
 let places;
-const response = await fetch("../places.json");
+const response = await fetch("places.json");
 places = await response.json(); //hämtas med fetch
 
 renderPlaceCard(places); // Visa platserna i sidofliken

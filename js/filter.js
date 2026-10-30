@@ -1,7 +1,7 @@
 import { renderPlaceCard } from "./place-cards.js";
 
 let places;
-const response = await fetch("../places.json");
+const response = await fetch("places.json");
 places = await response.json(); //hämtas med fetch 
 
 const searchInput = document.getElementById("search-act");
