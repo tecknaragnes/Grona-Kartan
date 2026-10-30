@@ -32,3 +32,14 @@ export const renderPlaceCard = (place) => {
         placeCard.addEventListener("click", () => renderDetails(p)); // När kortet klickas, rendera detaljerna för den platsen
     }
 }
+
+export const highlightPlaceCard = (placeId) => {
+    const card = cardHolder.querySelector(`[data-place-id="${placeId}"]`);
+    if (!card) return;
+
+    cardHolder.querySelector(".place-card--highlighhted")
+        ?.classList.remove("place-card--highlighted");
+
+    card.classList.add("place-card--highlighted");
+    card.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}

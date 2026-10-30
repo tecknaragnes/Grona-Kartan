@@ -1,3 +1,5 @@
+import { highlightPlaceCard } from "./place-cards";
+
 let places;
 const response = await fetch("places.json");
 places = await response.json(); //hämtas med fetch
@@ -27,6 +29,8 @@ export const renderMap = () => {
             className: `${p.id}`
         });
         L.marker(pinCoord, { icon: myIcon }).addTo(map).bindPopup(p.name);
+
+        marker.on("click", () => highlightPlaceCard(p.id));
     }
 
     const trummenRuCoo = [
@@ -69,19 +73,4 @@ export const renderMap = () => {
     //går det att klicka på pathen och då få upp samma som klicken på symbolen?
 
     map.setView([1900, 2400], 1);
-}
-
-export const mapListeners = () => {
-    //när man klickar på en pin, så ska det kortet bli markerat och hamna längst upp i listan.
-    let mapPins = document.querySelectorAll(".leaflet-marker-icon");
-    // console.log(mapPins);
-    for (let marker of mapPins) {
-        marker.addEventListener("click", () => {
-            console.log(marker);
-            //kopppla index i mapPins till index i obejktlistan? och därifrån få sätt platskort 
-            // nu finns id:et i klassnamnet, så det kanske går att hitta
-
-        })
-    }
-
 }

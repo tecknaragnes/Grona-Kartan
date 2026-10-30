@@ -140,6 +140,10 @@ aside #start-div h1 {
     height: 2em;
 }
 
+.place-card--highlighted {
+    outline: 3px solid var(--accent-green);
+}
+
 
 /* --- FLIK DETALJ --- */
 header {
