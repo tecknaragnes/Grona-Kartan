@@ -8,7 +8,7 @@ export const renderMap = () => {
         minZoom: -2
     });
     const bounds = [[0, 0], [3500, 4900]];
-    let image = L.imageOverlay('../img/kartaFigma.png', bounds).addTo(map);
+    let image = L.imageOverlay('img/kartaFigma.png', bounds).addTo(map);
     map.fitBounds(bounds);
 
     const URHere = L.marker([1900, 2400]).addTo(map).bindPopup("Du är här!");
