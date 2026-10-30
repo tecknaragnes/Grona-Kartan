@@ -1,4 +1,4 @@
-import { highlightPlaceCard } from "./place-cards";
+import { highlightPlaceCard } from "./place-cards.js";
 
 let places;
 const response = await fetch("places.json");
