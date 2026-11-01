@@ -89,10 +89,26 @@ export const renderDetails = (p) => {
     bikeTimeElement.textContent = `ca ${bikeTime.toFixed(0)} min`;
 
     const terrainElement = document.querySelector(".bann-terrain");
-    const terrainArray = ["Väldigt lätt", "Medel", "Svår"];
-    terrainElement.textContent = `Terräng: ${terrainArray[p.terrain]}`;
+    const terrainArray = ["Lätt terräng", "Medel terräng", "Svår terrräng"];
+    let terrainValue = p.terrain - 1;
+    terrainElement.innerHTML = `<img src="img/svg/landscape.svg" alt=""> <p>${terrainArray[terrainValue]}</p>`;
 
+    for (let i = 0; i < p.terrain; i++) {
+        const terrainIcon = document.createElement("img");
+        terrainIcon.src = "img/svg/square.svg";
+        terrainIcon.alt = "";
+        terrainElement.append(terrainIcon);
+    }
+    for (let i = p.terrain; i < 3; i++) {
+        const terrainIcon = document.createElement("img");
+        terrainIcon.src = "img/svg/box.svg";
+        terrainIcon.alt = "";
+        terrainElement.append(terrainIcon);
+    }
 
+    const distanceElement = document.querySelector(".bann-distance");
+    const distance = Math.sqrt(Math.pow(p.coordinates.X - 2400, 2) + Math.pow(p.coordinates.Y - 1900, 2)) * 0.004;
+    distanceElement.innerHTML = `<p>${distance.toFixed(2)} km ifrån skärmen</p>`;
 
     const animal = triviaByName.get(p.fauna);
     const plant = triviaByName.get(p.flora);

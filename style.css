@@ -268,7 +268,12 @@ aside .banner.bann-transport img {
     border-radius: 50%;
 }
 
-
+aside .banner.bann-terrain {
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: var(--accent-green) #fff var(--accent-green) var(--accent-green);
+    padding: 0 1em 0 0;
+}
 
 aside section.trivia {
     display: flex;
