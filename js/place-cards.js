@@ -20,6 +20,10 @@ export const renderPlaceCard = (place) => {
             </div>`;
         cardHolder.append(placeCard);
 
+        const distanceElement = placeCard.querySelector(".place-distance");
+        const distance = Math.sqrt(Math.pow(p.coordinates.X - 2400, 2) + Math.pow(p.coordinates.Y - 1900, 2)) * 0.004;
+        distanceElement.textContent = `${distance.toFixed(2)} km bort`;
+
         const symbolContainer = placeCard.querySelector(".place-card-symbols");
         const symbols = p.symbols;
         for (let s of symbols) {
@@ -37,9 +41,16 @@ export const highlightPlaceCard = (placeId) => {
     const card = cardHolder.querySelector(`[data-place-id="${placeId}"]`);
     if (!card) return;
 
-    cardHolder.querySelector(".place-card--highlighhted")
+    cardHolder.querySelector(".place-card--highlighted")
         ?.classList.remove("place-card--highlighted");
 
     card.classList.add("place-card--highlighted");
-    card.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    card.scrollIntoView({ behavior: "smooth", block: "start" });
 }
+
+// document.addEventListener("click", (event) => {
+//     if (event.target.closest(".place-card, #map")) return;
+
+//     cardHolder.querySelector(".place-card--highlighted")
+//         ?.classList.remove("place-card--highlighted");
+// });

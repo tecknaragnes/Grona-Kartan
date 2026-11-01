@@ -4,6 +4,8 @@ let places;
 const response = await fetch("places.json");
 places = await response.json(); //hämtas med fetch
 
+const placeMarkers = new Map();
+
 export const renderMap = () => {
     const map = L.map('map', {
         crs: L.CRS.Simple,
@@ -23,14 +25,20 @@ export const renderMap = () => {
             iconUrl: `img/symbols/${p.symbols[0]}-pin.png`,
             iconSize: [50, 57],
             iconAnchor: [26, 50],
-            popupAnchor: [-3, -76], //blir denna bra med pin-popup
+            popupAnchor: [0, -50], //blir denna bra med pin-popup
             shadowUrl: "img/pin-shadow.png",
             shadowSize: [47.5, 14.5],
             shadowAnchor: [15, 2],
             className: `${p.id}`
         });
-        const marker = L.marker(pinCoord, { icon: myIcon }).addTo(map);
+        let marker;
+        if (p.type === "Promenadstråk") {
+            marker = L.marker(pinCoord, { icon: myIcon }).addTo(map).bindPopup(`${p.name}, ${p.length} km`);
+        } else {
+            marker = L.marker(pinCoord, { icon: myIcon }).addTo(map).bindPopup(`${p.name}`);
+        }
 
+        placeMarkers.set(p.id, marker);
         marker.on("click", () => highlightPlaceCard(p.id));
     }
 
@@ -73,6 +81,12 @@ export const renderMap = () => {
     const drevRu = L.polyline(drevRuCoo, { color: "green" }).addTo(map);
     //går det att klicka på pathen och då få upp samma som klicken på symbolen?
 
-    map.setView([1900, 2400], 1);
+    map.setView([1900, 2400], 0);
     return map;
 }
+
+export const markerOpacity = (visiblePlaceIds) => {
+    for (const [placeId, marker] of placeMarkers) {
+        marker.setOpacity(visiblePlaceIds.has(placeId) ? 1 : 0.5);
+    }
+};

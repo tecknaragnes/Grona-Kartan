@@ -1,4 +1,5 @@
 import { renderPlaceCard } from "./place-cards.js";
+import { markerOpacity } from "./map.js";
 
 let places;
 const response = await fetch("places.json");
@@ -50,6 +51,8 @@ export const filterResults = () => {
 
     const results = searchPlaces(symbolFiltered, searchInput.value);
     renderPlaceCard(results);
+    const visiblePlaceIds = new Set(results.map(p => p.id));
+    markerOpacity(visiblePlaceIds); // ändra opacity på symbolerna som är aktiva, och de som inte är aktiva ska vara lite mer transparenta
 };
 
 export const listeners = () => {
@@ -292,7 +295,7 @@ export const listeners = () => {
         } else {
             console.log("ta bort lekplats");
             activeSymbols = activeSymbols.filter(symbol => symbol !== "lekplats");
-            utegym.src = "img/symbols/lekplats-inv.png";
+            lekplats.src = "img/symbols/lekplats-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
