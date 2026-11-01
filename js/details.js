@@ -88,22 +88,6 @@ export const renderDetails = (p) => {
     const bikeTime = Math.sqrt(Math.pow(p.coordinates.X - 2400, 2) + Math.pow(p.coordinates.Y - 1900, 2)) * 0.004 * 12;
     bikeTimeElement.textContent = `ca ${bikeTime.toFixed(0)} min`;
 
-    const terrainElement = document.querySelector(".bann-terrain");
-    const terrainArray = ["Väldigt lätt", "Medel", "Svår"];
-    terrainElement.textContent = `Terräng: ${terrainArray[p.terrain]}`;
-
-    for (let i = 0; i = p.terrain; i++) {
-        const terrainIcon = document.createElement("img");
-        terrainIcon.src = "img/svg/square.svg";
-        terrainIcon.alt = "";
-        terrainElement.append(terrainIcon);
-    }
-    if (p.terrain < 2) {
-        const terrainIcon = document.createElement("img");
-        terrainIcon.src = "img/svg/box.svg";
-        terrainIcon.alt = "";
-        terrainElement.append(terrainIcon);
-    }
 
     const animal = triviaByName.get(p.fauna);
     const plant = triviaByName.get(p.flora);
