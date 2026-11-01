@@ -34,6 +34,7 @@
             "vindskydd",
             "rastplats"
         ],
+        "terrain": 2,
         "thumbnail": "img/places/bokhult-thumb",
         "popUpIMG": "img/places/bokhult-pop",
         "detailIMG": "img/places/bokhult-det",
@@ -77,6 +78,7 @@
             "vindskydd",
             "rastplats"
         ],
+        "terrain": 3,
         "thumbnail": "img/places/alvsjo-thumb",
         "popUpIMG": "img/places/alvsjo-pop",
         "detailIMG": "img/places/alvsjo-det",
@@ -115,6 +117,7 @@
             "promenad",
             "vindskydd"
         ],
+        "terrain": 3,
         "thumbnail": "img/places/flaten-thumb",
         "popUpIMG": "img/places/flaten-pop",
         "detailIMG": "img/places/flaten-det",
@@ -152,6 +155,7 @@
             "fågelskådning",
             "rastplats"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/juda-thumb",
         "popUpIMG": "img/places/juda-pop",
         "detailIMG": "img/places/juda-det",
@@ -192,6 +196,7 @@
             "vindskydd",
             "rastplats"
         ],
+        "terrain": 2,
         "thumbnail": "img/places/teleborg-thumb",
         "popUpIMG": "img/places/teleborg-pop",
         "detailIMG": "img/places/teleborg-det",
@@ -227,6 +232,7 @@
             "paddla",
             "vindskydd"
         ],
+        "terrain": 3,
         "thumbnail": "img/places/helga-thumb",
         "popUpIMG": "img/places/helga-pop",
         "detailIMG": "img/places/helga-det",
@@ -265,6 +271,7 @@
             "utegym",
             "vindskydd"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/brunnsv-thumb",
         "popUpIMG": "img/places/brunnsv-pop",
         "detailIMG": "img/places/brunnsv-det",
@@ -306,6 +313,7 @@
             "fågelskådning",
             "rastplats"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/drev-thumb",
         "popUpIMG": "img/places/drev-pop",
         "detailIMG": "img/places/drev-det",
@@ -344,6 +352,7 @@
             "utegym",
             "rastplats"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/trummen-thumb",
         "popUpIMG": "img/places/trummen-pop",
         "detailIMG": "img/places/trummen-det",
@@ -380,6 +389,7 @@
             "vindskydd",
             "rastplats"
         ],
+        "terrain": 3,
         "thumbnail": "img/places/tyresta-thumb",
         "popUpIMG": "img/places/tyresta-pop",
         "detailIMG": "img/places/tyresta-det",
@@ -420,6 +430,7 @@
             "vatten",
             "rastplats"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/drevRu-thumb",
         "popUpIMG": "img/places/drevRu-pop",
         "detailIMG": "img/places/drevRu-det",
@@ -460,6 +471,7 @@
             "skog",
             "rastplats"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/trummRu-thumb",
         "popUpIMG": "img/places/trummRu-pop",
         "detailIMG": "img/places/trummRu-det",
@@ -494,6 +506,7 @@
             "fågelskådning",
             "rastplats"
         ],
+        "terrain": 3,
         "thumbnail": "img/places/tyrestaRu-thumb",
         "popUpIMG": "img/places/tyrestaRu-pop",
         "detailIMG": "img/places/tyrestaRu-det",
@@ -531,6 +544,7 @@
             "vatten",
             "fika"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/skogskallan-thumb",
         "popUpIMG": "img/places/skogskallan-pop",
         "detailIMG": "img/places/skogskallan-det",
@@ -567,6 +581,7 @@
             "fika",
             "rastplats"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/ornen-thumb",
         "popUpIMG": "img/places/ornen-pop",
         "detailIMG": "img/places/ornen-det",
@@ -605,6 +620,7 @@
             "fika",
             "rastplats"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/centrum-thumb",
         "popUpIMG": "img/places/centrum-pop",
         "detailIMG": "img/places/centrum-det",
@@ -642,6 +658,7 @@
             "promenad",
             "fika"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/centrumLek-thumb",
         "popUpIMG": "img/places/centrumLek-pop",
         "detailIMG": "img/places/centrumLek-det",
@@ -675,6 +692,7 @@
             "toalett",
             "rastplats"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/linne-thumb",
         "popUpIMG": "img/places/linne-pop",
         "detailIMG": "img/places/linne-det",
@@ -708,6 +726,7 @@
             "promenad",
             "rastplats"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/gertrud-thumb",
         "popUpIMG": "img/places/gertrud-pop",
         "detailIMG": "img/places/gertrud-det",
@@ -738,6 +757,7 @@
             "skog",
             "vindskydd"
         ],
+        "terrain": 3,
         "thumbnail": "img/places/teleborgGrill-thumb",
         "popUpIMG": "img/places/teleborgGrill-pop",
         "detailIMG": "img/places/teleborgGrill-det",
@@ -771,6 +791,7 @@
             "rullstol",
             "park"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/hov-thumb",
         "popUpIMG": "img/places/hov-pop",
         "detailIMG": "img/places/hov-det",
@@ -801,6 +822,7 @@
             "parkering",
             "rullstol"
         ],
+        "terrain": 1,
         "thumbnail": "img/places/haga-thumb",
         "popUpIMG": "img/places/haga-pop",
         "detailIMG": "img/places/haga-det",
