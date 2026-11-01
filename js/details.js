@@ -22,7 +22,7 @@ export const renderDetails = (p) => {
     detailDiv.innerHTML = ""; // Clear previous details
     const body = document.querySelector("body");
     body.style.gridTemplateColumns = "1fr 1fr"; // ska man göra detaljsidan bredare? asså att den tar upp mer av skärmen
-    map.setView([p.coordinates.Y, p.coordinates.X], 1);
+    map.setView([p.coordinates.Y, p.coordinates.X], 0);
 
     detailDiv.innerHTML = `
     <header>
@@ -46,12 +46,11 @@ export const renderDetails = (p) => {
         <div class="banner bann-transport">
             <div class="transport bus">
                 <img src="img/symbols/buss.png" alt="Buss" class="transport-symbol">
-                <p>Busslinje ${p.transport.line}</p>
-                <p>${p.transport.stop}</p>
+                <p>Busslinje ${p.transport.line}, ${p.transport.stop}</p>
             </div>
             <div class="transport bike">
                 <img src="img/symbols/cykel.png" alt="Cykel" class="transport-symbol">
-                <p>10 min</p>
+                <p class="bike-time">10 min</p>
             </div>
         </div>
         <div class="banner bann-terrain"></div>
@@ -83,6 +82,27 @@ export const renderDetails = (p) => {
         symb.src = `img/symbols/${s}.png`;
         symb.alt = `${s}`;
         symbolField.append(symb);
+    }
+
+    const bikeTimeElement = document.querySelector(".bike-time");
+    const bikeTime = Math.sqrt(Math.pow(p.coordinates.X - 2400, 2) + Math.pow(p.coordinates.Y - 1900, 2)) * 0.004 * 12;
+    bikeTimeElement.textContent = `ca ${bikeTime.toFixed(0)} min`;
+
+    const terrainElement = document.querySelector(".bann-terrain");
+    const terrainArray = ["Väldigt lätt", "Medel", "Svår"];
+    terrainElement.textContent = `Terräng: ${terrainArray[p.terrain]}`;
+
+    for (let i = 0; i = p.terrain; i++) {
+        const terrainIcon = document.createElement("img");
+        terrainIcon.src = "img/svg/square.svg";
+        terrainIcon.alt = "";
+        terrainElement.append(terrainIcon);
+    }
+    if (p.terrain < 2) {
+        const terrainIcon = document.createElement("img");
+        terrainIcon.src = "img/svg/box.svg";
+        terrainIcon.alt = "";
+        terrainElement.append(terrainIcon);
     }
 
     const animal = triviaByName.get(p.fauna);
