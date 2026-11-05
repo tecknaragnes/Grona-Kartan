@@ -2,10 +2,15 @@ import { renderDetails } from "./details.js";
 
 const cardHolder = document.querySelector(".cards-holder");
 
-export const renderPlaceCard = (place) => {
-    cardHolder.innerHTML = ""; // Clear previous cards, den funkar
+const getDistance = (place) => {
+    return Math.hypot(Number(place.coordinates.X) - 2400, Number(place.coordinates.Y) - 1900);
+}
 
-    for (let p of place) {
+export const renderPlaceCard = (places) => {
+    cardHolder.innerHTML = ""; // Clear previous cards, den funkar
+    const sortedPlaces = places.sort((a, b) => getDistance(a) - getDistance(b)); // Sortera platserna baserat på avstånd
+
+    for (let p of sortedPlaces) {
         const placeCard = document.createElement("div");
         placeCard.classList.add("place-card");
         placeCard.dataset.placeId = p.id;
@@ -47,10 +52,3 @@ export const highlightPlaceCard = (placeId) => {
     card.classList.add("place-card--highlighted");
     card.scrollIntoView({ behavior: "smooth", block: "start" });
 }
-
-// document.addEventListener("click", (event) => {
-//     if (event.target.closest(".place-card, #map")) return;
-
-//     cardHolder.querySelector(".place-card--highlighted")
-//         ?.classList.remove("place-card--highlighted");
-// });
