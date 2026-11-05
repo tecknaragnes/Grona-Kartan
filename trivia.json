@@ -25,6 +25,7 @@
         "name": "bluetit",
         "showName": "Blåmes",
         "img": "img/creatures/bluetit.jpg",
+        "audio": "sounds/bird1.mp3",
         "description": "Blåmesen är en liten fågel med blå hjässa och gula undersidor. Den letar ofta efter insekter och spindlar bland trädens grenar. På vintern äter den också frön och besöker gärna fågelmatare. Blåmesen häckar ofta i håligheter eller fågelholkar."
     },
     {
@@ -53,6 +54,7 @@
         "name": "mallard",
         "showName": "Gräsand",
         "img": "img/creatures/mallard.jpg",
+        "audio": "sounds/mallard.mp3",
         "description": "Gräsanden är en vanlig simand som ofta lever vid sjöar och dammar. Hanen har vanligtvis ett grönt huvud, medan honan är brunmönstrad. Gräsänder äter bland annat vattenväxter, frön och smådjur. De söker ofta föda genom att tippa fram kroppen och doppa huvudet under vattnet."
     },
     {
@@ -74,6 +76,7 @@
         "name": "heron",
         "showName": "Häger",
         "img": "img/creatures/heron.jpg",
+        "audio": "sounds/heron.mp3",
         "description": "Hägern är en stor vadarfågel med långa ben och en lång, spetsig näbb. Den står ofta stilla vid vatten och väntar på att fånga fisk eller grodor. När den får syn på ett byte hugger den snabbt till med näbben. Hägrar bygger ofta sina bon högt i träd."
     },
     {
@@ -81,6 +84,7 @@
         "name": "greattit",
         "showName": "Talgoxe",
         "img": "img/creatures/greattit.jpg",
+        "audio": "sounds/greattit.mp3",
         "description": "Talgoxen är en liten och lättigenkännlig sångfågel. Den har svart huvud, vita kinder och gul undersida med ett mörkt band. Under sommaren äter den många insekter och larver. På vintern söker den frön och annan föda i trädgårdar och skog."
     },
     {
@@ -109,6 +113,7 @@
         "name": "swan",
         "showName": "Svan",
         "img": "img/creatures/swan.jpg",
+        "audio": "sounds/swan.mp3",
         "description": "Svanar är stora vattenfåglar med lång hals och kraftig kropp. De simmar ofta på sjöar och äter vattenväxter. Många svanar bildar par som håller ihop under lång tid. Deras bon byggs vanligtvis nära vatten."
     },
     {
@@ -123,6 +128,7 @@
         "name": "woodpecker",
         "showName": "Hackspett",
         "img": "img/creatures/woodpecker.jpg",
+        "audio": "sounds/woodpecker.mp3",
         "description": "Hackspettar klättrar på trädstammar med hjälp av starka fötter och styva stjärtfjädrar. De hackar i bark och ved för att hitta insekter eller göra bohål. Deras kraftiga näbb hjälper dem att bearbeta trä. Hackspettens trummande ljud kan höras långt genom skogen."
     },
     {
