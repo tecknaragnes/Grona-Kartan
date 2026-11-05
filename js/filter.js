@@ -7,6 +7,7 @@ places = await response.json(); //hämtas med fetch
 
 const searchInput = document.getElementById("search-act");
 const searchButton = document.getElementById("search-btn");
+const deleteButton = document.getElementById("delete-btn");
 
 //sökning
 let searchQuery = "";
@@ -421,3 +422,16 @@ export const listeners = () => {
     });
     //de ska söka gemensamt, så sök på alla som är aktiva
 }
+
+deleteButton.addEventListener("click", () => {
+    searchInput.value = "";
+    activeSymbols = [];
+    // alla symboler ska gå tillbaka till den inverterade bilden
+    const allSymbols = document.querySelectorAll(".symbols");
+    allSymbols.forEach(symbol => {
+        symbol.classList.remove("active");
+        const symbolName = symbol.classList[1];
+        symbol.src = `img/symbols/${symbolName}-inv.png`;
+    });
+    renderPlaceCard(places);
+});

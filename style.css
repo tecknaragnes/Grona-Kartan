@@ -55,16 +55,23 @@ aside {
     padding: 0.75em;
 }
 
+#start-div #top-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
 aside hr {
     border: 0.1em solid var(--accent-green);
 }
 
 #search-flex {
+    align-items: center;
     display: flex;
 }
 
 input#search-act {
-    height: 3em;
+    height: 3.2em;
     border-radius: 0.75em 0 0 0.75em;
     border: 0.2em solid var(--accent-green);
     padding: 0 0.5em;
@@ -76,6 +83,11 @@ input#search-act {
     color: #fff;
     background-color: var(--accent-green);
     padding: 0.75em;
+    height: 3.5em;
+}
+
+aside #top-flex img {
+    height: 3.3em;
 }
 
 #symbol-filters {
