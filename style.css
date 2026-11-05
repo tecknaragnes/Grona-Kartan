@@ -25,6 +25,62 @@ main {
     grid-area: main;
 }
 
+main #info-btn {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    z-index: 1002;
+    height: 4em;
+    border-radius: 50%;
+    box-shadow: 0.5em 0.5em 0.75em #0000007a;
+}
+
+main #info-div {
+    position: fixed;
+    top: 0.25em;
+    right: 0.25em;
+    z-index: 1001;
+    background-color: #fff;
+    max-width: 15em;
+    box-shadow: 0.5em 0.5em 0.75em #0000007a;
+    border-radius: 0.5em;
+}
+
+main #info-div h2 {
+    margin: 0.25em 0.5em 0;
+}
+
+main #info-div #about p {
+    padding: 0.5em;
+    margin: 0;
+}
+
+main #info-div #about h2 {
+    max-width: 6.3em;
+}
+
+main #info-div ul {
+    list-style: none;
+    padding: 0.2em 0.5em;
+    margin: 0;
+}
+
+main #info-div li {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5em;
+    margin: 0.25em;
+}
+
+main #info-div img {
+    height: 2.7em;
+}
+
+main #info-div ul p {
+    margin: 0;
+    align-self: center;
+}
+
 #map {
     height: 100%;
 }
@@ -49,6 +105,7 @@ aside {
     background-color: #fff;
     height: 100vh;
     grid-area: aside;
+    /* box-shadow: 1em 1em 1em black; */
 }
 
 #start-div {
