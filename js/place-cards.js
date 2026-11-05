@@ -19,11 +19,16 @@ export const renderPlaceCard = (places) => {
             <img class="place-card-img" src="${p.thumbnail}.jpg" alt="">
             <div class="place-card-info">
                 <h2>${p.name}</h2>
-                <p>${p.type}</p>
+                <p class="type-length">${p.type}</p>
                 <p class="place-distance">km bort</p>
                 <div class="place-card-symbols"></div>
             </div>`;
         cardHolder.append(placeCard);
+
+        if (p.length) {
+            const typeLength = placeCard.querySelector(".type-length");
+            typeLength.textContent += `, ${p.length} km`;
+        }
 
         const distanceElement = placeCard.querySelector(".place-distance");
         const distance = Math.sqrt(Math.pow(p.coordinates.X - 2400, 2) + Math.pow(p.coordinates.Y - 1900, 2)) * 0.004;
