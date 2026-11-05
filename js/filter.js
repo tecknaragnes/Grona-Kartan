@@ -52,6 +52,13 @@ export const filterResults = () => {
 
     const results = searchPlaces(symbolFiltered, searchInput.value);
     renderPlaceCard(results);
+    if (results.length === 0) {
+        const noResults = document.createElement("p");
+        noResults.classList.add("no-results");
+        noResults.textContent = "Din sökning gav inga resultat. Testa att ändra sökord eller filter.";
+        const placeCardsContainer = document.querySelector(".cards-holder");
+        placeCardsContainer.appendChild(noResults);
+    }
     const visiblePlaceIds = new Set(results.map(p => p.id));
     markerOpacity(visiblePlaceIds); // ändra opacity på symbolerna som är aktiva, och de som inte är aktiva ska vara lite mer transparenta
 };

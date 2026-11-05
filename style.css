@@ -116,6 +116,10 @@ aside #start-div h1 {
     overflow-y: scroll;
 }
 
+p.no-results {
+    font-size: larger;
+}
+
 .place-card {
     background-color: #fff;
     border: 0.1em solid var(--accent-green);
