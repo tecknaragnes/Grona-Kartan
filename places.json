@@ -73,7 +73,6 @@
             "parking",
             "forest",
             "lake",
-            "path",
             "canoe",
             "wind-shield",
             "bench"
@@ -114,7 +113,6 @@
             "forest",
             "lake",
             "bird",
-            "path",
             "wind-shield"
         ],
         "terrain": 3,
@@ -149,7 +147,6 @@
             "nature-reserve",
             "stroller",
             "parking",
-            "path",
             "wheelchair",
             "forest",
             "bird",
@@ -189,7 +186,6 @@
             "nature-reserve",
             "stroller",
             "parking",
-            "path",
             "lake",
             "forest",
             "bird",
@@ -228,7 +224,6 @@
             "beach",
             "portapotty",
             "parking",
-            "path",
             "canoe",
             "wind-shield"
         ],
@@ -267,7 +262,6 @@
             "bbq",
             "parking",
             "wheelchair",
-            "path",
             "gym",
             "wind-shield"
         ],
@@ -615,7 +609,6 @@
             "stroller",
             "playground",
             "parking",
-            "path",
             "wheelchair",
             "cafe",
             "bench"
@@ -655,7 +648,6 @@
             "parking",
             "wheelchair",
             "park",
-            "path",
             "cafe"
         ],
         "terrain": 1,
@@ -687,7 +679,6 @@
             "garden",
             "stroller",
             "parking",
-            "path",
             "wheelchair",
             "toilet",
             "bench"
@@ -723,7 +714,6 @@
             "parking",
             "wheelchair",
             "toilet",
-            "path",
             "bench"
         ],
         "terrain": 1,
