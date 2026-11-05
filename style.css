@@ -293,3 +293,17 @@ aside .trivia-img-cont img {
     max-height: 100%;
     object-fit: cover;
 }
+
+aside .trivia .sound-div {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5em;
+}
+
+aside .sound-div img {
+    height: 4.5em;
+}
+
+aside .sound-div p {
+    align-self: center;
+}

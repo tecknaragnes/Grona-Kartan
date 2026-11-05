@@ -5,8 +5,8 @@ places = await response.json(); //hämtas med fetch
 const response2 = await fetch("trivia.json");
 const triviaItems = await response2.json();
 const triviaByName = new Map(triviaItems.map(item => [item.name, item]));
-console.log(triviaItems);
-console.log(triviaByName);
+// console.log(triviaItems);
+// console.log(triviaByName);
 
 let map;
 export const setMap = (mapInstance) => {
@@ -112,6 +112,7 @@ export const renderDetails = (p) => {
 
     const animal = triviaByName.get(p.fauna);
     const plant = triviaByName.get(p.flora);
+    let audio;
 
     const fillTriviaCard = (card, item) => {
         // if (!item) {
@@ -127,7 +128,43 @@ export const renderDetails = (p) => {
         image.alt = item.showName;
         // imageContainer.append(image);
         card.querySelector(".trivia-img-cont").replaceChildren(image);
+
+        if (item.name === "bluetit" || item.name === "mallard" || item.name === "heron" || item.name === "greattit" || item.name === "swan" || item.name === "woodpecker") {
+            const soundDiv = document.createElement("div");
+            soundDiv.classList.add("sound-div");
+
+            const controlContainer = document.createElement("div");
+            controlContainer.classList.add("control-container");
+
+            const audioSymbol = document.createElement("img");
+            audioSymbol.src = "img/symbols/birdcall.png";
+            audioSymbol.alt = "Lyssna på fågeln";
+            controlContainer.append(audioSymbol);
+
+            audio = document.createElement("audio");
+            audio.src = item.audio;
+
+            const soundText = document.createElement("p");
+            soundText.textContent = "Lyssna på fågeln";
+
+            soundDiv.append(controlContainer, soundText);
+            card.append(soundDiv);
+            audioSymbol.addEventListener("click", () => {
+                if (audio.paused) {
+                    audio.play();
+                    audioSymbol.src = "img/symbols/birdcall-pause.png";
+                    audioSymbol.alt = "Pausa ljudet";
+                    soundText.textContent = "Lyssnar...";
+                } else {
+                    audio.pause();
+                    audioSymbol.src = "img/symbols/birdcall.png";
+                    audioSymbol.alt = "Lyssna på fågeln";
+                    soundText.textContent = "Lyssna på fågeln";
+                }
+            });
+        }
     };
+
     const cards = detailDiv.querySelectorAll(".trivia > div");
     fillTriviaCard(cards[0], animal);
     fillTriviaCard(cards[1], plant);
@@ -142,5 +179,9 @@ export const renderDetails = (p) => {
         startDiv.style.display = "block";
         detailDiv.style.display = "none";
         body.style.gridTemplateColumns = "1fr 2fr";
+        if (audio) {
+            audio.pause();
+            audio.currentTime = 0;
+        }
     });
 }
