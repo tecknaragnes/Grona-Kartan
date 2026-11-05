@@ -83,18 +83,18 @@ export const listeners = () => {
 
 
     naturreservat.addEventListener("click", () => {
-        console.log("naturreservat");
+        console.log("nature-reserve");
         naturreservat.classList.toggle("active");
         if (naturreservat.classList.contains("active")) {
-            activeSymbols.push("naturreservat");
-            naturreservat.src = "img/symbols/naturreservat.png"; // byt bild till den fyllda
+            activeSymbols.push("nature-reserve");
+            naturreservat.src = "img/symbols/nature-reserve.png"; // byt bild till den fyllda
             console.log(activeSymbols);
 
         } else {
             console.log("ta bort naturreservat");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "naturreservat"); //vad gör denna???
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "nature-reserve"); //vad gör denna???
             console.log(activeSymbols);
-            naturreservat.src = "img/symbols/naturreservat-inv.png"; // gå tillbaka till den inverterade
+            naturreservat.src = "img/symbols/nature-reserve-inv.png"; // gå tillbaka till den inverterade
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
     });
@@ -103,13 +103,13 @@ export const listeners = () => {
         console.log("forest");
         skog.classList.toggle("active");
         if (skog.classList.contains("active")) {
-            activeSymbols.push("skog");
-            skog.src = "img/symbols/skog.png";
+            activeSymbols.push("forest");
+            skog.src = "img/symbols/forest.png";
             console.log(activeSymbols);
         } else {
             console.log("ta bort skog");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "skog"); //vad gör denna???
-            skog.src = "img/symbols/skog-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "forest"); //vad gör denna???
+            skog.src = "img/symbols/forest-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -119,14 +119,14 @@ export const listeners = () => {
         console.log("path");
         promenad.classList.toggle("active");
         if (promenad.classList.contains("active")) {
-            activeSymbols.push("promenad");
-            promenad.src = "img/symbols/promenad.png";
+            activeSymbols.push("path");
+            promenad.src = "img/symbols/path.png";
             console.log("lägg till promenad");
             console.log(activeSymbols);
         } else {
             console.log("ta bort promenad");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "promenad"); //vad gör denna???
-            promenad.src = "img/symbols/promenad-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "path"); //vad gör denna???
+            promenad.src = "img/symbols/path-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -136,14 +136,14 @@ export const listeners = () => {
         console.log("bird");
         fagelskadning.classList.toggle("active");
         if (fagelskadning.classList.contains("active")) {
-            activeSymbols.push("fågelskådning");
-            fagelskadning.src = "img/symbols/fågelskådning.png";
+            activeSymbols.push("bird");
+            fagelskadning.src = "img/symbols/bird.png";
             console.log("lägg till fågelskådning");
             console.log(activeSymbols);
         } else {
             console.log("ta bort fågelskådning");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "fågelskådning");
-            fagelskadning.src = "img/symbols/fågelskådning-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "bird");
+            fagelskadning.src = "img/symbols/bird-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -170,14 +170,14 @@ export const listeners = () => {
         console.log("garden");
         tradgard.classList.toggle("active");
         if (tradgard.classList.contains("active")) {
-            activeSymbols.push("trädgård");
-            tradgard.src = "img/symbols/trädgård.png";
+            activeSymbols.push("garden");
+            tradgard.src = "img/symbols/garden.png";
             console.log("lägg till trädgård");
             console.log(activeSymbols);
         } else {
             console.log("ta bort trädgård");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "trädgård");
-            tradgard.src = "img/symbols/trädgård-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "garden");
+            tradgard.src = "img/symbols/garden-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -187,14 +187,14 @@ export const listeners = () => {
         console.log("lake");
         vatten.classList.toggle("active");
         if (vatten.classList.contains("active")) {
-            activeSymbols.push("vatten");
-            vatten.src = "img/symbols/vatten.png";
+            activeSymbols.push("lake");
+            vatten.src = "img/symbols/lake.png";
             console.log("lägg till vatten");
             console.log(activeSymbols);
         } else {
             console.log("ta bort vatten");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "vatten"); //vad gör denna???
-            vatten.src = "img/symbols/vatten-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "lake"); //vad gör denna???
+            vatten.src = "img/symbols/lake-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -204,14 +204,14 @@ export const listeners = () => {
         console.log("beach");
         badplats.classList.toggle("active");
         if (badplats.classList.contains("active")) {
-            activeSymbols.push("badplats");
-            badplats.src = "img/symbols/badplats.png";
+            activeSymbols.push("beach");
+            badplats.src = "img/symbols/beach.png";
             console.log("lägg till badplats");
             console.log(activeSymbols);
         } else {
             console.log("ta bort badplats");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "badplats"); //vad gör denna???
-            badplats.src = "img/symbols/badplats-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "beach"); //vad gör denna???
+            badplats.src = "img/symbols/beach-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -221,14 +221,14 @@ export const listeners = () => {
         console.log("canoe");
         paddla.classList.toggle("active");
         if (paddla.classList.contains("active")) {
-            activeSymbols.push("paddla");
-            paddla.src = "img/symbols/paddla.png";
+            activeSymbols.push("canoe");
+            paddla.src = "img/symbols/canoe.png";
             console.log("lägg till paddla");
             console.log(activeSymbols);
         } else {
             console.log("ta bort paddla");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "paddla");
-            paddla.src = "img/symbols/paddla-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "canoe");
+            paddla.src = "img/symbols/canoe-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -238,14 +238,14 @@ export const listeners = () => {
         console.log("BBQ");
         grillplats.classList.toggle("active");
         if (grillplats.classList.contains("active")) {
-            activeSymbols.push("grillplats");
-            grillplats.src = "img/symbols/grillplats.png";
+            activeSymbols.push("bbq");
+            grillplats.src = "img/symbols/bbq.png";
             console.log("lägg till grillplats");
             console.log(activeSymbols);
         } else {
             console.log("ta bort grillplats");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "grillplats"); //vad gör denna???
-            grillplats.src = "img/symbols/grillplats-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "bbq"); //vad gör denna???
+            grillplats.src = "img/symbols/bbq-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -255,14 +255,14 @@ export const listeners = () => {
         console.log("windShield");
         vindskydd.classList.toggle("active");
         if (vindskydd.classList.contains("active")) {
-            activeSymbols.push("vindskydd");
-            vindskydd.src = "img/symbols/vindskydd.png";
+            activeSymbols.push("wind-shield");
+            vindskydd.src = "img/symbols/wind-shield.png";
             console.log("lägg till vindskydd");
             console.log(activeSymbols);
         } else {
             console.log("ta bort vindskydd");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "vindskydd"); //vad gör denna???
-            vindskydd.src = "img/symbols/vindskydd-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "wind-shield"); //vad gör denna???
+            vindskydd.src = "img/symbols/wind-shield-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -272,31 +272,31 @@ export const listeners = () => {
         console.log("gym");
         utegym.classList.toggle("active");
         if (utegym.classList.contains("active")) {
-            activeSymbols.push("utegym");
-            utegym.src = "img/symbols/utegym.png";
+            activeSymbols.push("gym");
+            utegym.src = "img/symbols/gym.png";
             console.log("lägg till utegym");
             console.log(activeSymbols);
         } else {
             console.log("ta bort utegym");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "utegym");
-            utegym.src = "img/symbols/utegym-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "gym");
+            utegym.src = "img/symbols/gym-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
     });
 
     lekplats.addEventListener("click", () => {
-        console.log("lekplats");
+        console.log("playground");
         lekplats.classList.toggle("active");
         if (lekplats.classList.contains("active")) {
-            activeSymbols.push("lekplats");
-            lekplats.src = "img/symbols/lekplats.png";
+            activeSymbols.push("playground");
+            lekplats.src = "img/symbols/playground.png";
             console.log("lägg till lekplats");
             console.log(activeSymbols);
         } else {
             console.log("ta bort lekplats");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "lekplats");
-            lekplats.src = "img/symbols/lekplats-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "playground");
+            lekplats.src = "img/symbols/playground-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -306,14 +306,14 @@ export const listeners = () => {
         console.log("bench");
         rastplats.classList.toggle("active");
         if (rastplats.classList.contains("active")) {
-            activeSymbols.push("rastplats");
-            rastplats.src = "img/symbols/rastplats.png";
+            activeSymbols.push("bench");
+            rastplats.src = "img/symbols/bench.png";
             console.log("lägg till rastplats");
             console.log(activeSymbols);
         } else {
             console.log("ta bort rastplats");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "rastplats");
-            rastplats.src = "img/symbols/rastplats-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "bench");
+            rastplats.src = "img/symbols/bench-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -323,14 +323,14 @@ export const listeners = () => {
         console.log("cafe");
         fika.classList.toggle("active");
         if (fika.classList.contains("active")) {
-            activeSymbols.push("fika");
-            fika.src = "img/symbols/fika.png";
+            activeSymbols.push("cafe");
+            fika.src = "img/symbols/cafe.png";
             console.log("lägg till fika");
             console.log(activeSymbols);
         } else {
             console.log("ta bort fika");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "fika");
-            fika.src = "img/symbols/fika-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "cafe");
+            fika.src = "img/symbols/cafe-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -340,14 +340,14 @@ export const listeners = () => {
         console.log("stroller");
         barnvagn.classList.toggle("active");
         if (barnvagn.classList.contains("active")) {
-            activeSymbols.push("barnvagn");
-            barnvagn.src = "img/symbols/barnvagn.png";
+            activeSymbols.push("stroller");
+            barnvagn.src = "img/symbols/stroller.png";
             console.log("lägg till barnvagn");
             console.log(activeSymbols);
         } else {
             console.log("ta bort barnvagn");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "barnvagn"); //vad gör denna???
-            barnvagn.src = "img/symbols/barnvagn-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "stroller"); //vad gör denna???
+            barnvagn.src = "img/symbols/stroller-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -357,14 +357,14 @@ export const listeners = () => {
         console.log("wheelchair");
         rullstol.classList.toggle("active");
         if (rullstol.classList.contains("active")) {
-            activeSymbols.push("rullstol");
-            rullstol.src = "img/symbols/rullstol.png";
+            activeSymbols.push("wheelchair");
+            rullstol.src = "img/symbols/wheelchair.png";
             console.log("lägg till rullstol");
             console.log(activeSymbols);
         } else {
             console.log("ta bort rullstol");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "rullstol"); //vad gör denna???
-            rullstol.src = "img/symbols/rullstol-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "wheelchair"); //vad gör denna???
+            rullstol.src = "img/symbols/wheelchair-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -374,14 +374,14 @@ export const listeners = () => {
         console.log("toilet");
         toalett.classList.toggle("active");
         if (toalett.classList.contains("active")) {
-            activeSymbols.push("toalett");
-            toalett.src = "img/symbols/toalett.png";
+            activeSymbols.push("toilet");
+            toalett.src = "img/symbols/toilet.png";
             console.log("lägg till toalett");
             console.log(activeSymbols);
         } else {
             console.log("ta bort toalett");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "toalett"); //vad gör denna???
-            toalett.src = "img/symbols/toalett-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "toilet"); //vad gör denna???
+            toalett.src = "img/symbols/toilet-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -391,14 +391,14 @@ export const listeners = () => {
         console.log("portapotty");
         dass.classList.toggle("active");
         if (dass.classList.contains("active")) {
-            activeSymbols.push("dass");
-            dass.src = "img/symbols/dass.png";
+            activeSymbols.push("portapotty");
+            dass.src = "img/symbols/portapotty.png";
             console.log("lägg till dass");
             console.log(activeSymbols);
         } else {
             console.log("ta bort dass");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "dass"); //vad gör denna???
-            dass.src = "img/symbols/dass-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "portapotty"); //vad gör denna???
+            dass.src = "img/symbols/portapotty-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -408,14 +408,14 @@ export const listeners = () => {
         console.log("parking");
         parkering.classList.toggle("active");
         if (parkering.classList.contains("active")) {
-            activeSymbols.push("parkering");
-            parkering.src = "img/symbols/parkering.png";
+            activeSymbols.push("parking");
+            parkering.src = "img/symbols/parking.png";
             console.log("lägg till parkering");
             console.log(activeSymbols);
         } else {
             console.log("ta bort parkering");
-            activeSymbols = activeSymbols.filter(symbol => symbol !== "parkering"); //vad gör denna???
-            parkering.src = "img/symbols/parkering-inv.png";
+            activeSymbols = activeSymbols.filter(symbol => symbol !== "parking"); //vad gör denna???
+            parkering.src = "img/symbols/parking-inv.png";
             console.log(activeSymbols);
         }
         filterResults(); //kör filterResults varje gång man klickar på en symbol
@@ -433,5 +433,5 @@ deleteButton.addEventListener("click", () => {
         const symbolName = symbol.classList[1];
         symbol.src = `img/symbols/${symbolName}-inv.png`;
     });
-    renderPlaceCard(places);
+    filterResults(); // nu renderas alla kort igen, och symbolerna på kartan
 });

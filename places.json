@@ -23,16 +23,16 @@
             "Grilla"
         ],
         "symbols": [
-            "naturreservat",
-            "barnvagn",
-            "dass",
-            "grillplats",
-            "promenad",
-            "skog",
-            "vatten",
-            "fågelskådning",
-            "vindskydd",
-            "rastplats"
+            "nature-reserve",
+            "stroller",
+            "portapotty",
+            "bbq",
+            "path",
+            "forest",
+            "lake",
+            "bird",
+            "wind-shield",
+            "bench"
         ],
         "terrain": 2,
         "thumbnail": "img/places/bokhult-thumb",
@@ -66,17 +66,17 @@
             "Bada"
         ],
         "symbols": [
-            "naturreservat",
-            "badplats",
-            "dass",
-            "grillplats",
-            "parkering",
-            "skog",
-            "vatten",
-            "promenad",
-            "paddla",
-            "vindskydd",
-            "rastplats"
+            "nature-reserve",
+            "beach",
+            "portapotty",
+            "bbq",
+            "parking",
+            "forest",
+            "lake",
+            "path",
+            "canoe",
+            "wind-shield",
+            "bench"
         ],
         "terrain": 3,
         "thumbnail": "img/places/alvsjo-thumb",
@@ -109,13 +109,13 @@
             "Grilla"
         ],
         "symbols": [
-            "naturreservat",
-            "grillplats",
-            "skog",
-            "vatten",
-            "fågelskådning",
-            "promenad",
-            "vindskydd"
+            "nature-reserve",
+            "bbq",
+            "forest",
+            "lake",
+            "bird",
+            "path",
+            "wind-shield"
         ],
         "terrain": 3,
         "thumbnail": "img/places/flaten-thumb",
@@ -146,14 +146,14 @@
             "Promenad"
         ],
         "symbols": [
-            "naturreservat",
-            "barnvagn",
-            "parkering",
-            "promenad",
-            "rullstol",
-            "skog",
-            "fågelskådning",
-            "rastplats"
+            "nature-reserve",
+            "stroller",
+            "parking",
+            "path",
+            "wheelchair",
+            "forest",
+            "bird",
+            "bench"
         ],
         "terrain": 1,
         "thumbnail": "img/places/juda-thumb",
@@ -186,15 +186,15 @@
             "Fågelskådning"
         ],
         "symbols": [
-            "naturreservat",
-            "barnvagn",
-            "parkering",
-            "promenad",
-            "vatten",
-            "skog",
-            "fågelskådning",
-            "vindskydd",
-            "rastplats"
+            "nature-reserve",
+            "stroller",
+            "parking",
+            "path",
+            "lake",
+            "forest",
+            "bird",
+            "wind-shield",
+            "bench"
         ],
         "terrain": 2,
         "thumbnail": "img/places/teleborg-thumb",
@@ -224,13 +224,13 @@
             "Paddla"
         ],
         "symbols": [
-            "vatten",
-            "badplats",
-            "dass",
-            "parkering",
-            "promenad",
-            "paddla",
-            "vindskydd"
+            "lake",
+            "beach",
+            "portapotty",
+            "parking",
+            "path",
+            "canoe",
+            "wind-shield"
         ],
         "terrain": 3,
         "thumbnail": "img/places/helga-thumb",
@@ -261,15 +261,15 @@
             "Träna"
         ],
         "symbols": [
-            "vatten",
-            "badplats",
-            "barnvagn",
-            "grillplats",
-            "parkering",
-            "rullstol",
-            "promenad",
-            "utegym",
-            "vindskydd"
+            "lake",
+            "beach",
+            "stroller",
+            "bbq",
+            "parking",
+            "wheelchair",
+            "path",
+            "gym",
+            "wind-shield"
         ],
         "terrain": 1,
         "thumbnail": "img/places/brunnsv-thumb",
@@ -303,15 +303,15 @@
             "Promenad"
         ],
         "symbols": [
-            "vatten",
-            "badplats",
-            "barnvagn",
-            "lekplats",
-            "parkering",
-            "promenad",
-            "rullstol",
-            "fågelskådning",
-            "rastplats"
+            "lake",
+            "beach",
+            "stroller",
+            "playground",
+            "parking",
+            "path",
+            "wheelchair",
+            "bird",
+            "bench"
         ],
         "terrain": 1,
         "thumbnail": "img/places/drev-thumb",
@@ -344,13 +344,13 @@
             "Träna"
         ],
         "symbols": [
-            "vatten",
-            "badplats",
-            "parkering",
-            "promenad",
-            "rullstol",
-            "utegym",
-            "rastplats"
+            "lake",
+            "beach",
+            "parking",
+            "path",
+            "wheelchair",
+            "gym",
+            "bench"
         ],
         "terrain": 1,
         "thumbnail": "img/places/trummen-thumb",
@@ -382,12 +382,12 @@
             "Promenad"
         ],
         "symbols": [
-            "skog",
-            "grillplats",
-            "promenad",
-            "fågelskådning",
-            "vindskydd",
-            "rastplats"
+            "forest",
+            "bbq",
+            "path",
+            "bird",
+            "wind-shield",
+            "bench"
         ],
         "terrain": 3,
         "thumbnail": "img/places/tyresta-thumb",
@@ -421,14 +421,14 @@
             "Leka"
         ],
         "symbols": [
-            "promenad",
-            "badplats",
-            "barnvagn",
-            "lekplats",
-            "parkering",
-            "rullstol",
-            "vatten",
-            "rastplats"
+            "path",
+            "beach",
+            "stroller",
+            "playground",
+            "parking",
+            "wheelchair",
+            "lake",
+            "bench"
         ],
         "terrain": 1,
         "thumbnail": "img/places/drevRu-thumb",
@@ -462,14 +462,14 @@
             "Träna"
         ],
         "symbols": [
-            "promenad",
-            "vatten",
-            "badplats",
-            "parkering",
-            "rullstol",
-            "utegym",
-            "skog",
-            "rastplats"
+            "path",
+            "lake",
+            "beach",
+            "parking",
+            "wheelchair",
+            "gym",
+            "forest",
+            "bench"
         ],
         "terrain": 1,
         "thumbnail": "img/places/trummRu-thumb",
@@ -500,11 +500,11 @@
             "Promenad"
         ],
         "symbols": [
-            "promenad",
-            "grillplats",
-            "skog",
-            "fågelskådning",
-            "rastplats"
+            "path",
+            "bbq",
+            "forest",
+            "bird",
+            "bench"
         ],
         "terrain": 3,
         "thumbnail": "img/places/tyrestaRu-thumb",
@@ -535,14 +535,14 @@
             "Fika"
         ],
         "symbols": [
-            "badplats",
-            "barnvagn",
-            "lekplats",
-            "parkering",
-            "promenad",
-            "rullstol",
-            "vatten",
-            "fika"
+            "beach",
+            "stroller",
+            "playground",
+            "parking",
+            "path",
+            "wheelchair",
+            "lake",
+            "cafe"
         ],
         "terrain": 1,
         "thumbnail": "img/places/skogskallan-thumb",
@@ -573,13 +573,13 @@
             "Leka"
         ],
         "symbols": [
-            "lekplats",
-            "barnvagn",
-            "parkering",
+            "playground",
+            "stroller",
+            "parking",
             "park",
-            "rullstol",
-            "fika",
-            "rastplats"
+            "wheelchair",
+            "cafe",
+            "bench"
         ],
         "terrain": 1,
         "thumbnail": "img/places/ornen-thumb",
@@ -612,13 +612,13 @@
         ],
         "symbols": [
             "park",
-            "barnvagn",
-            "lekplats",
-            "parkering",
-            "promenad",
-            "rullstol",
-            "fika",
-            "rastplats"
+            "stroller",
+            "playground",
+            "parking",
+            "path",
+            "wheelchair",
+            "cafe",
+            "bench"
         ],
         "terrain": 1,
         "thumbnail": "img/places/centrum-thumb",
@@ -650,13 +650,13 @@
             "Fika"
         ],
         "symbols": [
-            "lekplats",
-            "barnvagn",
-            "parkering",
-            "rullstol",
+            "playground",
+            "stroller",
+            "parking",
+            "wheelchair",
             "park",
-            "promenad",
-            "fika"
+            "path",
+            "cafe"
         ],
         "terrain": 1,
         "thumbnail": "img/places/centrumLek-thumb",
@@ -684,13 +684,13 @@
             "Promenad"
         ],
         "symbols": [
-            "trädgård",
-            "barnvagn",
-            "parkering",
-            "promenad",
-            "rullstol",
-            "toalett",
-            "rastplats"
+            "garden",
+            "stroller",
+            "parking",
+            "path",
+            "wheelchair",
+            "toilet",
+            "bench"
         ],
         "terrain": 1,
         "thumbnail": "img/places/linne-thumb",
@@ -718,13 +718,13 @@
             "Promenad"
         ],
         "symbols": [
-            "trädgård",
-            "barnvagn",
-            "parkering",
-            "rullstol",
-            "toalett",
-            "promenad",
-            "rastplats"
+            "garden",
+            "stroller",
+            "parking",
+            "wheelchair",
+            "toilet",
+            "path",
+            "bench"
         ],
         "terrain": 1,
         "thumbnail": "img/places/gertrud-thumb",
@@ -752,10 +752,10 @@
             "Grilla"
         ],
         "symbols": [
-            "grillplats",
-            "naturreservat",
-            "skog",
-            "vindskydd"
+            "bbq",
+            "nature-reserve",
+            "forest",
+            "wind-shield"
         ],
         "terrain": 3,
         "thumbnail": "img/places/teleborgGrill-thumb",
@@ -785,10 +785,10 @@
             "Träna"
         ],
         "symbols": [
-            "utegym",
-            "barnvagn",
-            "lekplats",
-            "rullstol",
+            "gym",
+            "stroller",
+            "playground",
+            "wheelchair",
             "park"
         ],
         "terrain": 1,
@@ -817,10 +817,10 @@
             "Träna"
         ],
         "symbols": [
-            "utegym",
-            "barnvagn",
-            "parkering",
-            "rullstol"
+            "gym",
+            "stroller",
+            "parking",
+            "wheelchair"
         ],
         "terrain": 1,
         "thumbnail": "img/places/haga-thumb",

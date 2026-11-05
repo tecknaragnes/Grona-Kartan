@@ -45,11 +45,11 @@ export const renderDetails = (p) => {
         <div class="banner bann-symbols"></div>
         <div class="banner bann-transport">
             <div class="transport bus">
-                <img src="img/symbols/buss.png" alt="Buss" class="transport-symbol">
+                <img src="img/symbols/bus.png" alt="Buss" class="transport-symbol">
                 <p>Busslinje ${p.transport.line}, ${p.transport.stop}</p>
             </div>
             <div class="transport bike">
-                <img src="img/symbols/cykel.png" alt="Cykel" class="transport-symbol">
+                <img src="img/symbols/bike.png" alt="Cykel" class="transport-symbol">
                 <p class="bike-time">10 min</p>
             </div>
         </div>
