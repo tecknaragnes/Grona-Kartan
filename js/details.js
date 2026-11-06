@@ -162,6 +162,11 @@ export const renderDetails = (p) => {
                     soundText.textContent = "Lyssna på fågeln";
                 }
             });
+            audio.addEventListener("ended", () => {
+                audioSymbol.src = "img/symbols/birdcall.png";
+                audioSymbol.alt = "Lyssna på fågeln";
+                soundText.textContent = "Lyssna på fågeln";
+            });
         }
     };
 
